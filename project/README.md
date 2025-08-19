@@ -1,6 +1,6 @@
 # SWE 3313 Fall 2025 Project
 
-`Revised Aug 15, 2025`
+`REVISIONS IN PROGRESS - Project will be ready for review by Sept 4`
 
 ## Project Overview
 
