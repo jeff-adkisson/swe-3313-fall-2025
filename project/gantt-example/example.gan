@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="3313" company="" webLink="http://" view-date="2025-09-14" view-index="0" gantt-divider-location="583" resource-divider-location="322" version="3.3.3316" locale="en_US">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd12" name="Cost" width="33" order="0"/>
+        <field id="tpd3" name="Name" width="299" order="1"/>
+        <field id="tpd4" name="Begin date" width="124" order="2"/>
+        <field id="tpd5" name="End date" width="125" order="3"/>
+        <option id="taskLabelDown" value="id"/>
+        <option id="taskLabelLeft" value="advancement"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#ff0066]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="220" order="0"/>
+        <field id="1" name="Default role" width="96" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="cbe006f90d3a41748b89ae080964ac2e" name="Project Plan" meeting="false" start="2025-09-25" duration="9" complete="0" expand="true">
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+            <task id="1" uid="92afec6af0a847849b22b81793607d44" name="Create Gantt Chart" meeting="false" start="2025-09-25" duration="7" complete="0" expand="true">
+                <depend id="2" type="2" difference="0" hardness="Strong"/>
+                <task id="3" uid="bd986dbcacf14895abe72d2dca0d9270" name="... task details here..." meeting="false" start="2025-09-25" duration="5" complete="0" expand="true">
+                    <depend id="4" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="4" uid="b1cdc4e2c6c14efa9a5539b071092dd7" name="... more tasks ..." meeting="false" start="2025-10-02" duration="2" complete="0" expand="true"/>
+            </task>
+            <task id="2" uid="8475e799d98d449bb0990245058034cf" name="Create Video Presentation" meeting="false" start="2025-10-06" duration="2" complete="0" expand="true">
+                <task id="5" uid="db6b78e374a04176b4c6cdd970543174" name="Record Loom video" meeting="false" start="2025-10-06" duration="1" complete="0" expand="true">
+                    <depend id="6" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="6" uid="d90deef1a12a4ac6bc818948e5d2b793" name="Add to GitHub repo" meeting="false" start="2025-10-07" duration="1" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="8" uid="078d8d1c3412469cb3dbd54f7ad9dd65" name="Requirements" meeting="false" start="2025-10-08" duration="5" complete="0" expand="true">
+            <task id="9" uid="ffee859056ec4de784d6306f87682f8d" name="Elicit Requirements" meeting="false" start="2025-10-08" duration="5" complete="0" expand="true">
+                <task id="10" uid="a9890250cd7e463b9841a72da7ea1298" name="Meet with Stakeholder" meeting="false" start="2025-10-08" duration="5" complete="0" expand="true"/>
+            </task>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

@@ -4,9 +4,9 @@
 
 ## Deliverables
 
-All deliverables will be in your team Github repo or YouTrack.
+All deliverables will be in your team Github repo, Loom, or GanttProject (but all will be found from your team GitHub repo).
 
-All deliverable documentation will be written in [Markdown](https://www.markdownguide.org/getting-started/). Your Gantt chart will be produced in [YouTrack](https://www.jetbrains.com/youtrack/). Your presentation will be produced in whatever video recording software you prefer.
+All deliverable documentation will be written in [Markdown](https://www.markdownguide.org/getting-started/). Your Gantt chart will be produced in [Gantt Project](https://www.ganttproject.biz/). Your presentation will be produced in a 5 minute Loom video.
 
 Your deliverables for this component include:
 
@@ -14,8 +14,8 @@ Your deliverables for this component include:
 2.  Team resumes (Github/Markdown)
 3.  Team assignments (Github/Markdown)
 4.  Technology selection (Github/Markdown)
-5.  Project plan milestones, epics and stories and Gantt chart (YouTrack)
-6.  3-5 minute recorded video presentation describing your plan, technology selection and team assignments (post to Github)
+5.  Project plan milestones, epics and stories and Gantt chart (Gantt Project .gan file and image)
+6.  3-5 minute recorded Loom video presentation describing your plan, technology selection and team assignments (post to Github)
 
 ## Requirements
 
@@ -23,7 +23,7 @@ Your deliverables for this component include:
     I recommend printing it and carefully highlighting/commenting everything in that section. It is very detailed and I have high expectations for each team.
 2.  Check all documentation into your team Github repo. Make sure all documentation is linked, organized, spell checked, and grammatically correct.
 3.  Create your presentation video using Loom. Share the link to your Loom video in your GitHub repo. Make sure the link is public.
-4.  Prove you can follow my instructions. Engineering is a very precise art. Some things we design, other things we follow. Here you are designing your project plan and carefully following my requirements to execute and submit the work.
+4.  Prove you can follow my instructions. Engineering is a very precise art. Some things we design, other things we follow. Here you are designing your project plan and carefully following my requirements to execute and submit the work. I gave precise instructions how to structure your repo including filenames... deviating from the repo structure will result in point reductions.
 
 ### Submission Steps
 
@@ -36,7 +36,7 @@ The entire team will work execute the project plan requirements. *All of you nee
 1.  Introduction (Github) - 10%
 2.  Team resumes and assignments (Github) - 15%
 3.  Technology selection (Github) - 15%
-4.  Project plan Gantt chart (YouTrack) - 40%
+4.  Project plan Gantt chart (Github / GanttProject .gan file) - 40%
 5.  3-5 minute Loom video presentation describing your plan, technology selection and team assignments (linked from Github) - 20%
 
 #### Written Scoring (40% total)
@@ -46,7 +46,7 @@ The entire team will work execute the project plan requirements. *All of you nee
 -  70% to 79%: meets most requirements, may have some writing or organizational issues.
 -  69% or below: does not meet most requirements or is very poorly written.
 
-*Note: Written work not posted to GitHub using Markdown will not be graded.*
+*Note: Written work not posted to GitHub using Markdown, Loom, and/or GanttProject will not be graded.*
 
 #### Project Plan Scoring (40% total)
 
@@ -55,7 +55,7 @@ The entire team will work execute the project plan requirements. *All of you nee
 -  70% to 79%: meets most requirements, may have some writing or organization issues.
 -  69% or below: does not meet most requirements or has significant organization issues.
 
-*Note: Project Plans not performed in YouTrack will not be graded.*
+*Note: Project Plans not performed in GanttProject will not be graded.*
 
 ### Presentation Scoring (20% total)
 
@@ -64,7 +64,7 @@ The entire team will work execute the project plan requirements. *All of you nee
 -  70% to 79%: meets most requirements, may have some organization or audio issues.
 -  69% or below: does not meet most requirements or has little or no audio.
 
-*Note: Presentations not posted to Github will not be graded.*
+*Note: Presentations not created in Loom and linked off of Github will not be graded.*
 
 ### Academic Honesty
 
@@ -74,7 +74,7 @@ More importantly, this course is a waste of your time if you do not do the work 
 
 ### Team Grading
 
-Everyone on the team will receive the same grade one exception. It follows.
+Everyone on the team will receive the same grade with the following exception
 
 Anyone not participating in the project may be removed from the team and have to perform the project alone. Before anyone can be "fired" from a team, I must meet with the *entire team* and hear what is happening. Do not fire anyone from your team without my explicit prior agreement.
 

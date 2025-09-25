@@ -1,7 +1,5 @@
 # SWE 3313 Fall 2025 Project
 
-`REVISIONS IN PROGRESS - Project will be ready for review by Sept 4`
-
 ## Project Overview
 
 This course has a large team project that starts immediately after Exam 1. You should start thinking about it now and considering who to add to your team.
@@ -11,35 +9,30 @@ The team project is 50% of your semester grade.
 This project attempts to simulate the software development process a small team might follow to produce a software solution for a client (me). The project has seven graded components, one of which is graded by your teammates. The entire project is 50% of your semester grade (300 of 600 total points).
 
 - [Team Selection](#team-selection)<br/>
-  Not graded<br/>Due TBD
-  *Anyone not on a team by TBD will be randomly assigned a team. There will be 12 teams of 5 students (assuming enrollment of 60).*
+  Not graded<br/>Anyone not on a team by TBD will be randomly assigned a team. 
+  To signup, visit the Team Roster link in the course D2L Navbar.
   
-  **Signup Sheet**
-  https://docs.google.com/spreadsheets/d/1JLcnNRv2tydWXsNqBA9HR45NrC8d8V5oblN5siYydAI/edit?usp=sharing
+  ![image-20250925132742642](README.assets/image-20250925132742642.png)
 - [Project Plan](#project-plan)<br/>
-   15 points, 5% of total<br/>*Submitted via GitHub with Loom video*<br/>
-   Due Wed Mar 5
+   15 points, 5% of total<br/>*Submitted via GitHub with Loom video*<br/>See the D2L Calendar for due date. All submissions are due by 11:59 PM EST on the due date.
 - [Requirements](#requirements)<br/>
    30 points, 10% of total<br/>*Submitted via GitHub with Loom video*
-   Due Fri Mar 28
+   See the D2L Calendar for due date. All submissions are due by 11:59 PM EST on the due date.
 - [User Interface Design](#user-interface-design)<br/>
-   30 points, 10% of total<br/>*Submitted via GitHub with Loom video*<br/>
-   Due Mon Apr 7
+   30 points, 10% of total<br/>*Submitted via GitHub with Loom video*<br/>See the D2L Calendar for due date. All submissions are due by 11:59 PM EST on the due date.
 - [Technical Design](#technical-design)<br/>
-   30 points, 10% of total<br/>*Submitted via GitHub with Loom video*<br/>
-   Due Fri April 18
+   30 points, 10% of total<br/>*Submitted via GitHub with Loom video*<br/>See the D2L Calendar for due date. All submissions are due by 11:59 PM EST on the due date.
 - [Implementation](#implementation)<br/>
-   105 points, 35% of total<br/>*Submitted via GitHub with Loom video*<br/>
-   Due Mon April 28 (with Final Presentation and Peer Evaluation)
+   105 points, 35% of total<br/>*Submitted via GitHub with Loom video*<br/>See the D2L Calendar for due date. All submissions are due by 11:59 PM EST on the due date (with Final Presentation and Peer Evaluation)
 - [Final Presentation](#final-presentation)<br/>
    60 points, 20% of total<br/>*Submitted via GitHub with Loom video*<br/>
-   Due Mon April 28 (with Implementation and Peer Evaluation)<br/>
+   See the D2L Calendar for due date. All submissions are due by 11:59 PM EST on the due date. (with Implementation and Peer Evaluation)<br/>
 - [Peer Evaluation](#peer-evaluation)<br/>
    30 points, 10% of total<br/>
    
    *Submitted via D2L dropbox* 
-   *(THIS IS THE ONLY D2L SUBMISSION FOR THE PROJECT)*
-   Due Mon April 28 (with Implementation and Final Presentation) 
+   *(THIS IS THE ONLY D2L SUBMISSION FOR THE <u>ENTIRE</u> PROJECT)*
+   See the D2L Calendar for due date. All submissions are due by 11:59 PM EST on the due date. (with Implementation and Final Presentation) 
 
 ---
 
@@ -243,7 +236,7 @@ I encourage you to watch these shared presentations. We have much to learn from 
 
 ------
 
-## Crashing and Burning on One Part
+## Crashing and Burning
 
 Almost every semester I see an outstanding team deliver a bad component, even getting a D or F on that part. Most of these teams go on to make excellent grades on the overall project.
 
@@ -251,7 +244,11 @@ Why does this happen? This project covers multiple disciplines - writing, design
 
 Also, team members let you down sometimes, even in excellent teams. Sometimes people just get overwhelmed or have problems in their personal life that temporarily crush their ability to execute. Your team has to manage this. All of you must have the attitude that you succeed or fail together. Support one another. Learn from failure to avoid failing again.
 
-Whatever the reason, if your team fails on one piece, do not let it demoralize you. There are many pieces in this project and a single bad grade will not hurt your team overly much. I know grades are important, but in the long run, learning from failure is even more valuable.
+Whatever the reason, if your team fails on one piece, do not let it demoralize you. There are many pieces in this project and a single bad grade will not hurt your team overly much with one exception (see below). I know grades are important, but in the long run, learning from failure is even more valuable.
+
+#### Where You Do Not Want to Fail...
+
+Your project implementation must be successful. Remember - we mostly care about *working software that solves a problem.* Project plans, requirements, etc. are part of the journey, but working software is what really matters. Make SURE your coded solution is the best it can be. Do not wait until the last few days of the semester to get started... you almost certainly will have serious problems.
 
 ---
 
@@ -268,6 +265,15 @@ One thing I encourage you to do is *never* let someone else drag your grade down
 Also remember that you will do peer review at the end of the project and it is 10% of the project grade, so underperforming team members will not get the same grade as everyone else on the team.
 
 No matter what you do, make sure this is never a popularity contest. Keep this about the work.
+
+#### Firing Procedure
+
+You can fire student(s) from your team. Here are the rules:
+
+1. When you fire a student, you lose that resource. The rest of the team has to make up for the loss.
+2. If you are fired, you join the "fired" team, which may only be you. The "fired" team is responsible for the remaining work. You do not want to be on this team.
+3. You cannot fire a student without meeting with the instructor first. Bring evidence of the problem. All team members must be present. If I cannot help broker a working solution, I will make the final decision.
+4. You cannot fire anyone the last two weeks of the semester. Discover who is not contributing early on. Firing people at the deadline is putting all of the risk at the end of the project.
 
 --------
 
@@ -325,7 +331,7 @@ Anyone not on a team by selection day will be assigned to one by me. If you are 
 
 ### Example Team Selection Spreadsheet
 
-![image-20250203134002796](README.assets/image-20250203134002796.png)
+![image-20250925133648693](README.assets/image-20250925133648693.png)
 
 ### Instructions and Grading Rubric
 
@@ -335,7 +341,7 @@ Anyone not on a team by selection day will be assigned to one by me. If you are 
 
 ## Project Plan
 
-`5%, 15 of 300  points`
+`Review the Syllabus for the point value and due date of this component.`
 
 This component has numerous parts:
 
@@ -347,17 +353,15 @@ This component has numerous parts:
 
 ### Technology Selection
 
-After Requirements Elicitation, each team will decide and report to me the following:
+Each team must decide and report to me the following via your Team Roster tab:
 
 - What language you will use to build your system
    Your choices are limited to Java, C#, and Python.
 - What web framework you will use to create the screens for your system
    You can choose from:
    - C# - Blazor Server or ASP MVC (dotnet core 8 or 9, Blazor Server or ASP MVC)
-      *If you are unsure what to choose, I recommend selecting C# and Blazor Server. Many teams have done outstanding projects with these selections over the years.*
    - Python - Flask (python 3.9, Flask 3.1)
    - Java - Spring (Java 23, Maven using https://start.spring.io/)
-      *Generally, students find this more challenging than the C# and Python choices, even if they learned some Java in FYE. It is powerful, but a bit unforgiving. Java web development takes a bit more effort to properly setup.*
 
 Some things to consider when choosing:
 
@@ -382,32 +386,51 @@ Now that you have your technology plan, you will produce a Markdown document tha
 4.  Operating environment
 5.  Any other software necessary to build and use your implementation
 
-### Creating Your Project Plan in YouTrack
+### Creating Your Project Plan in GanttProject
 
-You will use YouTrack to develop your project plan. This will include the milestones and various tasks to execute. This will be presented in Gantt chart format using YouTrack's Gantt chart creator. 
+You will use Gantt Project (https://www.ganttproject.biz/) to develop your project plan. This will include the milestones and various tasks to execute. This will be presented in Gantt chart format. 
 
 You will use the project deadlines in the course calendar (see the Syllabus) as your milestone dates.
 
 You will decompose the milestones into into epics and stories, assign each a priority and team member(s), and order them in a Gantt chart.
 
-Here is an example Gantt chart drawn in YouTrack:
+Here is an example Gantt chart drawn in Gantt Project:
 
-![project-plan-screenshot](README.assets/project-plan-screenshot.png)
+![image-20250925135314812](README.assets/image-20250925135314812.png)
 
-[DIRECT LINK TO FULL SIZE IMAGE](https://raw.githubusercontent.com/jeff-adkisson/swe-3313-fall-2023/main/project/README.assets/project-plan-screenshot.png)
+#### Get to Know Gantt Project
 
-Gantt chart components you will use:
+1. Download the software here (free, open-source, cross-platform): 
+   https://www.ganttproject.biz/download/free
+   ![image-20250925135545698](README.assets/image-20250925135545698.png)
 
--  **Milestone** - Represents something you are delivering. See the course calendar's project deadlines. For example, "Project Plan". Your Milestone should be short and does not require a verb. Your milestones are:
+2. Create a new project and explore how to create a Gantt chart.
+
+3. Download a sample Gantt chart, open it in Gantt Project, and explore how the sample creates a project plan for a construction project.
+
+   1. The sample file is here: https://github.com/bardsoftware/ganttproject/blob/master/ganttproject-builder/HouseBuildingSample.gan
+   2. Download it from Github by clicking the download raw file button.
+      ![image-20250925135745832](README.assets/image-20250925135745832.png)
+   3. Open the file in Gantt Project:
+      ![image-20250925135836047](README.assets/image-20250925135836047.png)
+
+   4. Double-click on a line in the left panel to view the properties of the Gantt chart entry. Be sure to look at Predecessors, etc. so you understand how to link up your own work.
+      ![image-20250925140013030](README.assets/image-20250925140013030.png)
+
+#### Your Team's Gantt chart Will Include
+
+-  **Milestones** - Represents something you are delivering. See the course calendar's project deadlines. For example, "Project Plan". Your Milestone should be short and does not require a verb. Your milestones are:
    -  Project Plan
    -  Requirements
    -  User Interface Design
    -  Technical Design
    -  Implementation
    -  Final Presentation
+-  **Epic** - Represents a grouping of stories. For example, "Produce video presentation". Every epic must contain a verb. Epics sit under milestones. 
+-  **Story** - The lowest level of detail needed in your team project plan. For example, "Script and record video presentation" and "Post video presentation to team Github repo". Every story needs a verb. Stories sit under epics.
 
--  **Epic** - Represents a grouping of stories. For example, "Produce video presentation". Every epic must contain a verb. Epics sit under milestones.
--  **Story** - The lowest level of detail needed in this project plan. For example, "Script and record video presentation" and "Post video presentation to team Github repo". Every story needs a verb. Stories sit under epics.
+The organization of your milestones, epics, and stories in your Gantt chart will look similar to this example (do not copy this example - it is not correct):
+![image-20250925142413791](README.assets/image-20250925142413791.png)
 
 #### Association Lines
 
@@ -415,23 +438,13 @@ Your epics and stories will logically show the start and finish dates for each e
 
 Do not show everything starting and finishing on the same day. That will not get you a good score. Really consider what has to be done, break down the tasks, and put them in the proper order. You are <u>*estimating*</u> the effort. You do not need to assign people to these entries. A top score on this part of the project will show me a project plan I can understand and hopefully see that you have carefully considered how each piece fits together.
 
-#### Content in each Milestone / Epic / Story YouTrack Entry
+#### Content in each Milestone / Epic / Story
 
 You do not need to write anything additional in the entries for each item you put in YouTrack issue tracker. All that is necessary (though you can do more) is the name, association, and start/end dates.
 
-#### Notes
-
-![image-20230926144105322](README.assets/image-20230926144105322.png)
-
-![image-20230926144055229](README.assets/image-20230926144055229.png)
-
-![image-20230926144043056](README.assets/image-20230926144043056.png)
-
 #### Documentation for YouTrack Gantt Charts
 
-https://www.jetbrains.com/help/youtrack/server/Gantt-Chart.html#gantt-chart-example
-
-https://www.youtube.com/live/jXBo-RasY3g?si=DOLYqb86P2J8mhCs&t=1566
+https://docs.ganttproject.biz/user/
 
 ### Team Resumes
 
@@ -479,48 +492,62 @@ Your 3 to 5 minute presentation will be a screen recording with audio including:
 
 Make sure your audio is clear and free of background noise. The presentation is an audio/screen recording of your screen showing your Github material and project plan. You do not need a face recorded in the video.
 
+#### Project Structure
+
+1. Create a README.md markdown file in the root of your team GitHub repo.
+2. Create a folder for the parts of the Project Plan assignment called `project-plan` off the root of your GitHub repo.
+
 ### Written Introduction
 
-Your team Github repo will have a README in the root in the repo that includes the following:
+Your team Github repo will have a `README.md` file in the root in the repo that includes (or links to) the following:
 
--  A short introduction to the project and what you plan to produce. For example:
-   Welcome to the project repository for **Jeff's Super Team of Himself!*. Here you will find all of the artifacts, presentations, documentation, and source code for our SWE  3313 class project.
-
-   We will create a small e-commerce website using Svelte and Express along with PostgresSQL to sell one-of-a-kind vintage motorcycles. 
-
+-  **Introduction**
+   A short introduction to the project describing what you plan to produce. This goes in your main/root `README.md` file. *For example:*
+   Welcome to the project repository for **Team 77 - Supervillians of KSU **. Here you will find all of the artifacts, presentations, documentation, and source code for our SWE  3313 class project.
+   
+   We will create a small e-commerce website using Java, SpringBoot, and SqlLite to sell one-of-a-kind vintage motorcycles. 
+   
 -  **Meet Our Team**
-   Put links to each of your teammates' Markdown resume files.
+   
+   -  Create a `~/project-plan/resumes` folder.
+   
+   -  Place each resume in Markdown format in the `resumes` folder. Do *not* put Word documents, PDFs, or anything else in this folder. Create all documentation in Markdown. All resumes must have a consistent format, sections, etc.
+   
+   -  Put relative links to each of your teammates' Markdown resume files off the main/root `README.md` file.
+   
+- **Team Assignments**
 
--  **Team Assignments**
-   Link to your team assignments Markdown file.
+   -  Create a `~/project-plan/team-assignments` folder.
+   -  Place your team assignments in a `project-plan/team-assignments/README.md` document.
+   -  Put a relative link to your team assignments Markdown file off of the main/root `README.md` file.
 
--  **Technology Selection**
-   Link to your technology selection writeup Markdown file.
+- **Technology Selection**
 
--  **Project Plan**
-   Link to your YouTrack Gantt chart.
+   -  Create a `~/project-plan/technology-selection` folder.
+   -  Place your technology selection details in  `project-plan/technology-selection/README.md`
+   -  Link to your technology selection writeup off the main/root `README.md` file.
 
--  **Project Plan Video Presentation**
-   Link to your project plan's video presentation checked into your team repo.
+- **Project Plan**
 
-[Your written introduction should use good Markdown structure for headers, links, etc.](https://www.markdownguide.org/basic-syntax/) I like writing Markdown in [Typora](https://typora.io/). It has spell checking and other nice features. It has a free trial (I paid for mine - it's worth it). You can find many other free Markdown editors for your system or just write Markdown in [VS Code](https://code.visualstudio.com/docs/languages/markdown) or your IDE. Markdown is very accessible and does not require any fancy software.
+   - Create a `~/project-plan/gantt-chart` folder.
+   - Link to a Project Plan markdown page called `project-plan/README.md`. This page will include:
+     - A link to your Gantt Project `.gan` file. Name your Gantt Project file `project-plan/gantt-chart/ganttproject.gan`. *I must be able to open your project plan in Gantt Project.*
+     - An exported image of your project plan. The image must show when the page is viewed in Github (it is not a link to the image). Make sure your image is a relative link... if you have `https://github` in the URL, you are doing it wrong. https://www.codecademy.com/resources/docs/markdown/images
+
+- **Project Plan Video Presentation**
+   Link to your project plan's Loom video presentation.
+
+[Your written introduction must use good Markdown structure for headers, links, etc.](https://www.markdownguide.org/basic-syntax/) I like writing Markdown in [Typora](https://typora.io/). It has spell checking and other nice features. It has a free trial (I paid for mine - it's worth it). You can find many other free Markdown editors for your system or just write Markdown in [VS Code](https://code.visualstudio.com/docs/languages/markdown) or your IDE. Markdown is very accessible and does not require any fancy software.
+
+All links *must be relative* except the link to your Loom video presentation. If you do not understand the difference between relative and absolute paths, learn it now... this is an essential software engineering skill. https://www.docstomarkdown.pro/relative-links-in-markdown/
 
 ### Team Github Repo
 
-I will be using the GitHub repo link in the project spreadsheet to reach your team's work. EVERYTHING in this project except what is hosted in YouTrack will be checked into your team Github repo.
-
-### Granting Jeff Access to YouTrack
-
-Each team will send Jeff a YouTrack account. Email me at JAdkiss1@Kennesaw.edu. I need this so I can review your YouTrack Gantt chart.
+I will be using the GitHub repo link in the project spreadsheet to reach your team's work. EVERYTHING in this project except your Peer Review in D2L will be in your team's *single* repository. Do not create multiple repositories. Everything will be in a single repository all semester that every member of your team can access and update.
 
 ### Example Markdown `README.md` From a Prior Semester
 
-![image-20250203173443030](README.assets/image-20250203173443030.png)
-
-### Why Is The Project Plan Only 5% of the Grade?
-
-1. This is your first submission and I will grade it rigorously. You will see my expectations without losing a lot of points on the project. I expect excellent spelling and grammar, well-organized work, and a polished presentation. Over and over I will stress that you need to perform as if you were being paid by a customer to do this work - not just getting a grade in a core class.
-2. This part is easy relative to the rest of the project (it has a lot of little pieces, but none are technically challenging). I give you the dates and milestones and you will back into a project plan and Gantt chart. If you were creating a real plan from scratch, it would be a much larger effort trying to figure out how long things actually take.
+![image-20250925143537431](README.assets/image-20250925143537431.png)
 
 ### Submission and Grading Rubric
 
@@ -530,7 +557,7 @@ Each team will send Jeff a YouTrack account. Email me at JAdkiss1@Kennesaw.edu. 
 
 ## Requirements
 
-`10%, 30 of 300 points`
+`Review the Syllabus for the point value and due date of this component.`
 
 This component has five sections:
 
@@ -698,7 +725,7 @@ Once again, the presentation is to simulate convincing your client that you are 
 
 ## User Interface Design
 
-`10%, 30 of 300 points`
+`Review the Syllabus for the point value and due date of this component.`
 
 In this component, you will combine your knowledge of the project, the requirements, and your technology choice's UI capabilities to produce a [high-fidelity iteractive mockup](https://www.uxpin.com/studio/blog/high-fidelity-prototyping-low-fidelity-difference) of your application using the free edition of [Marvel](https://marvelapp.com).
 
@@ -818,7 +845,7 @@ Engineering remains male-dominated in part due to generalizations like this one.
 
 ## Technical Design
 
-`10% = 30 of 300 points`
+`Review the Syllabus for the point value and due date of this component.`
 
 At this point, you have spent significant time thinking about and working on your project. You should have very good ideas how to implement your system. Now that you have this knowledge and insight, you will produce a technical design detailing how you will build the most critical pieces of the system.
 
@@ -881,7 +908,7 @@ As always, your work will be written in Markdown and posted to your team project
 
 ## Implementation
 
-`35% = 105 of 300 points`
+`Review the Syllabus for the point value and due date of this component.`
 
 Finally, you are ready to produce your application! You have planned most of the semester and you know exactly what to make.
 
@@ -928,7 +955,7 @@ PRO TIP 3: You would not hire a carpenter who has no tools. Sometimes, you have 
 
 ## Final Presentation
 
-`20% = 60 of 300 points`
+`Review the Syllabus for the point value and due date of this component.`
 
 This is the end. You are done! The holidays are almost here and this course has an OPTIONAL final exam!
 
@@ -959,7 +986,7 @@ Presentation order will be randomly selected (except late teams, which must pres
 
 ## Peer Evaluation
 
-`10% = 30 of 300 points`
+`Review the Syllabus for the point value and due date of this component.`
 
 `DO NOT POST IN GITHUB - Post in D2L Folder`
 
@@ -981,6 +1008,12 @@ Here is some guidance you might consider:
 Generally the only students who get poor scores from their teammates were the students who simply did not participate or let the team down in a big way during some critical piece.
 
 So be a great team member and step up to the project. If you are not a great coder, help the great coder in the group test. If you are not a great writer, proofread the requirements. If you are the leader, do not be an a-hole, work on your diplomacy, and learn a bit about [Servant Leadership](https://www.forbes.com/sites/forbescoachescouncil/2020/03/11/traditional-leadership-vs-servant-leadership/?sh=493498c6451e). This project covers many disciplines, so everyone has a chance to be a great contributor for some piece of it.
+
+#### Fired Team Peer Review
+
+If your team fired a student, do not post a peer review of that student.
+
+If you are on the fired team, peer review yourself and the other members of the fired team (if any).
 
 ### Instructions and Grading Rubric
 
