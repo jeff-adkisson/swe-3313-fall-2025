@@ -13,22 +13,18 @@ This project attempts to simulate the software development process a small team 
   To signup, visit the Team Roster link in the course D2L Navbar.
   
   ![image-20250925132742642](README.assets/image-20250925132742642.png)
-- [Project Plan](#project-plan)<br/>
-   15 points, 5% of total<br/>*Submitted via GitHub with Loom video*<br/>See the D2L Calendar for due date. All submissions are due by 11:59 PM EST on the due date.
-- [Requirements](#requirements)<br/>
-   30 points, 10% of total<br/>*Submitted via GitHub with Loom video*
+- [Project Plan](#project-plan)<br/>*Submitted via GitHub with Loom video*<br/>See the D2L Calendar for due date. All submissions are due by 11:59 PM EST on the due date.
+- [Requirements](#requirements)<br/>*Submitted via GitHub with Loom video*
    See the D2L Calendar for due date. All submissions are due by 11:59 PM EST on the due date.
 - [User Interface Design](#user-interface-design)<br/>
-   30 points, 10% of total<br/>*Submitted via GitHub with Loom video*<br/>See the D2L Calendar for due date. All submissions are due by 11:59 PM EST on the due date.
+   *Submitted via GitHub with Loom video*<br/>See the D2L Calendar for due date. All submissions are due by 11:59 PM EST on the due date.
 - [Technical Design](#technical-design)<br/>
    30 points, 10% of total<br/>*Submitted via GitHub with Loom video*<br/>See the D2L Calendar for due date. All submissions are due by 11:59 PM EST on the due date.
 - [Implementation](#implementation)<br/>
-   105 points, 35% of total<br/>*Submitted via GitHub with Loom video*<br/>See the D2L Calendar for due date. All submissions are due by 11:59 PM EST on the due date (with Final Presentation and Peer Evaluation)
-- [Final Presentation](#final-presentation)<br/>
-   60 points, 20% of total<br/>*Submitted via GitHub with Loom video*<br/>
+   *Submitted via GitHub with Loom video*<br/>See the D2L Calendar for due date. All submissions are due by 11:59 PM EST on the due date (with Final Presentation and Peer Evaluation)
+- [Final Presentation](#final-presentation)<br/>*Submitted via GitHub with Loom video*<br/>
    See the D2L Calendar for due date. All submissions are due by 11:59 PM EST on the due date. (with Implementation and Peer Evaluation)<br/>
 - [Peer Evaluation](#peer-evaluation)<br/>
-   30 points, 10% of total<br/>
    
    *Submitted via D2L dropbox* 
    *(THIS IS THE ONLY D2L SUBMISSION FOR THE <u>ENTIRE</u> PROJECT)*
@@ -196,16 +192,19 @@ This project covers many disciplines and you will use a variety of tools. Fortun
 2. A Team Name<br/>
    Completely unnecessary, but you cannot have a team without a name. Pick something you like - it does not have to be boring.
 3. A free Github account<br/>
-   You will check in your project work to a GitHub repository. Your team can either create a dedicated Github account or choose one team member to house the team's work in their  account. If you are unfamiliar with source control, you will get familiar with it this semester. It is an essential software engineering skill. You should also consider trying a git client for handling cloning and checkins, such as Github Desktop or the free version of GitKraken (my personal favorite).
-4. An IDE for development<br/>
-   
+   You will check in your project work to a GitHub repository. Your team can either create a dedicated Github account or choose one team member to house the team's work in their  account. If you are unfamiliar with source control, you will get familiar with it this semester. It is an essential software engineering skill. 
+4. `git` source control (installed)
+   You will check your work into your team GitHub repo via a git client for handling cloning and checkins. You can do this via the CLI, a free GUI tool such as Github Desktop, or the free version of GitKraken (my personal favorite). You can also check-in via IDEs and editors such as Visual Studio Code or any of the JetBrains IDEs. I personally do not like this, but it is another approach you might explore.
+5. An IDE for development (installed)<br/>
+
    I recommend getting a JetBrains education license (free) using using a JetBrains IDE. JetBrains has IDEs for every major language and operating system. You can use something else for development, but I recommend these, particularly if you have never used a professional-grade tool. JetBrains IDEs work on Windows, MacOS, and Linux. Do not use a text editor such as Notepad. Learn how to use an IDE including the built-in debugger.
-5. A free YouTrack account<br/>Your project plan will use YouTrack's excellent [Gantt Chart creator](https://www.jetbrains.com/youtrack/features/gantt_chart.html). YouTrack is free for up to teams of 10. Each team needs one YouTrack account for making your project plan. https://www.jetbrains.com/youtrack/
-6. A free Marvel account<br/>
-   Your UI design will be made in Marvel, a friendly high-fidelity design tool. https://marvelapp.com/signup
-7. Software to record video presentations<br/>
-   Each of your project submissions will include a Loom video. Loom makes screen recording very easy. Create a free Loom account. You can make videos up to 5 minutes long with Loom. Signup for the free Starter plan. https://www.loom.com/pricing
-9. Diagramming tools<br/>
+6. Free Gantt Project application (installed)<br/>Your project plan Gantt chart will be made using the free open-source, cross-platform Gantt Project application.
+   https://www.ganttproject.biz/
+7. A free Marvel account (web-based)<br/>
+   Your UI design will be made in the free version of Marvel, a friendly high-fidelity design tool. https://marvelapp.com/signup
+8. Free Loom account to record video presentations<br/>
+   Each of your project submissions will include a Loom video. Loom makes screen recording *very easy*. Create a free Loom account. You can make videos up to 5 minutes long with Loom. Signup for the free Starter plan. https://www.loom.com/pricing *All videos must be made using Loom.*
+9. Free diagramming tools<br/>
    I will introduce you to a few. I am partial to [PlantUML](https://www.plantuml.com/plantuml/umla/jSxBQW8n6CNnVPxYuAPGK9pBgeYuQJTz28cJKoSqbo7vh1NjktTguw98SL6w2l_am2-hB3h9pZjrXzuQGdeY3r4ktTdKEQenzLkq1aEA6qUViRVIGuUjeq6NuZxZXHILNsqOTD8UpWRAOI1YaZugnI1M3fWydizvDO7EuBp2KG7thDRMu05XvpTCM2os34nQQ9PB1KodNwEWFSUDy5t6DCnTieFO62wN7rTCNPYwCFLjvlelJy_droWzqzfGj7NvTx8fP5F8vZRvHx4jObl4zX_4UONJQJQBnz6flpEMR7vcgrOCPkVT9m00) and [Mermaid]((https://mermaid.live/edit#pako:eNp1Uk1vwjAM_StWdtkk-AHtreJDmhgFFdhh6w5ea9qINqmcsIkB_30p7bSVjlziOM_2e7aPItEpCV8QjyVmjGWswJ1REMHpNBzqI4TBfDIejqPH50kEPmBR6E_zizo2Zn2MZakyYMqkM9FKrcJ9-U4My1kPVeKO-k5Hprj2vr5BhWzbmufmWk6i1SK8wVGaDqhPMWX5QWyeZELKkKMHsVjnBEXruIvFdcy95z3AVrKxIZbk8AtVHMDzIMmRMbEuHSBT0x9K-wmgwCa291HlWhFs_vRIKguYUUdxR2NfUoIc_df4AUxnN_Rf5CfUAbXF5kG4mQaj9SZyxXSttKZoNXwRa9DsJuW01vP3L5M0YiBK4hJl6pbpwi4WNienVvjOTJF3dUvODod7q1cHlQjf8p4GYl-laKldP-FvsTDOW6F60frnff4G-kLSMQ)) because I dislike drawing using point/click/drag. You can also use Dia (I think it stinks, but it is free and cross-platform and many courses here require it) or any professional grade diagramming tool such as LucidChart, yEd, etc, You *cannot* use PowerPoint (which is not a professional grade diagramming tool) or hand drawn diagrams. I prefer yEd to Dia if you like click/drag drawing. https://www.yworks.com/products/yed Try a few and pick the one you like.
 
 ---
@@ -348,8 +347,10 @@ This component has numerous parts:
 - Introduction
 - Team Resumes and Team Assignments
 - Technology Selection
-- Generating a Project Plan and Gantt chart in YouTrack
-- Producing a 3-5 minute video presentation of your project plan
+- Generating a Gantt chart in Gantt Project (https://www.ganttproject.biz/)
+- Producing a 3-5 minute video presentation of your project plan (https://www.loom.com/signup)
+
+All of the work for these components will be posted to your team's GitHub repo.
 
 ### Technology Selection
 
@@ -440,9 +441,9 @@ Do not show everything starting and finishing on the same day. That will not get
 
 #### Content in each Milestone / Epic / Story
 
-You do not need to write anything additional in the entries for each item you put in YouTrack issue tracker. All that is necessary (though you can do more) is the name, association, and start/end dates.
+You do not need to write anything additional in the entries for each task you create. All that is necessary (though you can do more) is the name, association, and start/end dates.
 
-#### Documentation for YouTrack Gantt Charts
+#### Documentation for Gantt Project Charts
 
 https://docs.ganttproject.biz/user/
 
@@ -478,8 +479,6 @@ Remember that everyone must contribute and you need to try to distribute the eff
 ### Video Presentation
 
 Your recorded presentation will present your plan within 5 minutes. I want you to think of every presentation in this project as a mechanism to build confidence in your client that the project is heading toward success, demonstrate technical proficiency, and help your client understand the decisions your team is making. Your client (me) wants reassurance your team is on the right path. I recommend putting some thought into your presentations. You will do this for real customers in your career, so do not write this off as just something to appease your professor. Carefully organize your presentations. I do not recommend submitting the first one you produce any more than you would submit the first draft of an essay as a final report.
-
-You will check the link to your video presentation and a link to your YouTrack Gantt chart plan into your team's Github repository. 
 
 Since every team will have the same milestone dates, most of these will look similar at the macro level, but will vary significantly in the task breakdown. That is fine... there are many ways to perform this project.
 
@@ -992,13 +991,13 @@ Presentation order will be randomly selected (except late teams, which must pres
 
 Hopefully you have an outstanding team experience during this project. If not, hopefully you learned something about how challenging working in a team can be and how important it is to have the right people on the team with you.
 
-In this component, you will rate each of your teammates *and yourself* between 0 and 30 points. You are welcome to give everyone a top score including yourself. Or you can award less. 
+You will grade yourself and your project teammates. I will not share the individual scores with your peers. Each of you will receive the average of your peer reviews for this part of the project. 
 
-Each student will receive the average of what was awarded by their teammates and themselves. For example, if you get a 30, 30, 10, 30 from yourself and your 3 teammates, your Peer Evaluation score will be (100 / 120) * 30 = 25 points`, or 83.3%.
+The detailed instructions for this component are in the D2L Asssignment folder. In summary:
 
-You do not have to provide a reason for your scores and I certainly will not pass a reason along if you do give me one. Scores are therefore anonymous in that regard.
-
-If you get less than top scores from your teammates, please ask yourself what you could have done to contribute more, to better support the project and your teammates.
+- Rate yourself between 50 and 100.
+- Rate each of your teammates between 50 and 100.
+- You do not have to provide a reason/explanation for your scores.
 
 Here is some guidance you might consider:
 
