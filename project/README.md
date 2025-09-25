@@ -226,14 +226,6 @@ Most importantly, do not wait until the last minute to ask for help and manage y
 
 ------
 
-## After Each Component Is Graded
-
-After each part of the project except the Final Presentation, I will pick an outstanding submission and share that team's presentation with the class.
-
-I encourage you to watch these shared presentations. We have much to learn from one another.
-
-------
-
 ## Crashing and Burning
 
 Almost every semester I see an outstanding team deliver a bad component, even getting a D or F on that part. Most of these teams go on to make excellent grades on the overall project.
@@ -292,11 +284,11 @@ You can fire student(s) from your team. Here are the rules:
 
 *Anyone not on a team by the deadline will be randomly assigned to a team.* 
 
-This course contains up to 40 students. All teams will contain 4 students unless the course has an irregular count (40 % 4 != 0). In that case, there will either be one or two teams of 3 as well.
+This course contains 40 or more students. All teams will contain 4 or 5 students unless the course has an irregular count.
 
 If a teammate drops after midterm, your team will remain the same. It's unusual (though it has happened) that more than 1 teammate drops at midterm. We will handle these cases if and when they occur.
 
-Teams of 3 do not receive any grading leniency. There are fewer people to coordinate (often the teams of 3 do better as a result). 
+Smaller teams do not receive any grading leniency. There are fewer people to coordinate (often the teams of 3 do better as a result). 
 
 If there is a team of 2 due to a student on a team of 3 dropping the course, I will discuss with the remaining team members on how to complete the project.
 
