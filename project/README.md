@@ -6,7 +6,7 @@ This course has a large team project that starts immediately after Exam 1. You s
 
 The team project is 50% of your semester grade.
 
-This project attempts to simulate the software development process a small team might follow to produce a software solution for a client (me). The project has seven graded components, one of which is graded by your teammates. The entire project is 50% of your semester grade (300 of 600 total points).
+This project attempts to simulate the software development process a small team might follow to produce a software solution for a client (me). The project has seven graded components, one of which is graded by your teammates. The entire project is 50% of your semester grade.
 
 - [Team Selection](#team-selection)<br/>
   Not graded<br/>Anyone not on a team by TBD will be randomly assigned a team. 
@@ -18,8 +18,7 @@ This project attempts to simulate the software development process a small team 
    See the D2L Calendar for due date. All submissions are due by 11:59 PM EST on the due date.
 - [User Interface Design](#user-interface-design)<br/>
    *Submitted via GitHub with Loom video*<br/>See the D2L Calendar for due date. All submissions are due by 11:59 PM EST on the due date.
-- [Technical Design](#technical-design)<br/>
-   30 points, 10% of total<br/>*Submitted via GitHub with Loom video*<br/>See the D2L Calendar for due date. All submissions are due by 11:59 PM EST on the due date.
+- [Technical Design](#technical-design)<br/>*Submitted via GitHub with Loom video*<br/>See the D2L Calendar for due date. All submissions are due by 11:59 PM EST on the due date.
 - [Implementation](#implementation)<br/>
    *Submitted via GitHub with Loom video*<br/>See the D2L Calendar for due date. All submissions are due by 11:59 PM EST on the due date (with Final Presentation and Peer Evaluation)
 - [Final Presentation](#final-presentation)<br/>*Submitted via GitHub with Loom video*<br/>
