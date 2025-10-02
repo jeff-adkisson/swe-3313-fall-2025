@@ -1,5 +1,7 @@
 # SWE 3313 Fall 2025 Project
 
+![Gantt Chart](project-plan/house-building-sample.png)
+
 ## Project Overview
 
 This course has a large team project that starts immediately after Exam 1. You should start thinking about it now and considering who to add to your team.
@@ -24,7 +26,7 @@ This project attempts to simulate the software development process a small team 
 - [Final Presentation](#final-presentation)<br/>*Submitted via GitHub with Loom video*<br/>
    See the D2L Calendar for due date. All submissions are due by 11:59 PM EST on the due date. (with Implementation and Peer Evaluation)<br/>
 - [Peer Evaluation](#peer-evaluation)<br/>
-   
+  
    *Submitted via D2L dropbox* 
    *(THIS IS THE ONLY D2L SUBMISSION FOR THE <u>ENTIRE</u> PROJECT)*
    See the D2L Calendar for due date. All submissions are due by 11:59 PM EST on the due date. (with Implementation and Final Presentation) 
