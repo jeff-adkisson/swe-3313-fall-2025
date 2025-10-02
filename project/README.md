@@ -1,7 +1,5 @@
 # SWE 3313 Fall 2025 Project
 
-![Gantt Chart](project-plan/house-building-sample.png)
-
 ## Project Overview
 
 This course has a large team project that starts immediately after Exam 1. You should start thinking about it now and considering who to add to your team.
