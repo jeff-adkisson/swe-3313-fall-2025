@@ -11,13 +11,13 @@ Here are your deliverables in this phase:
 1.  [Requirements Introduction](README.md#requirements-introduction) in your repo's main README.md file and links to requirements, use case diagram, decision diagram, and presentation. This is integrated into the documentation you produced for the Project Plan so everything can be found (but is not contained) from a single point.
 2.  [Requirements](README.md#requirements-writing) organized into versions, epics and stories.
     Note that the version you implementing by the end of the semester is Version 1. Version 2, etc. will contain the requirements you decide are *not* "must-have" requirements. So hint, hint, it sounds like Version 1 is limited to Must Have requirements.
-3.  One [Use Case Diagram](README.md#use-case-diagram) showing the major functionality of the application and all relevant actors for all versions (not just Version 1).
-4.  One [Decision Table](README.md#decision-table) showing the rules and actions a user can take if logging in as a user or administrator for all versions (not just Version 1).
+3.  One [Use Case Diagram](README.md#use-case-diagram) showing the major functionality of the application and all relevant actors for all versions (not just Version 1). The use case diagram must *not* be a process flow.
+4.  One [Decision Table](README.md#decision-table) showing the rules and actions a user can take if logging in as a user or administrator. The decision table must be accompanied by a coding demo and screenshot showing the various conditions, rules, and actions in your chosen languages.
 5.  A 3-5 minute [Presentation](README.md#requirements-presentation) giving a high level review of the requirements to your customer. Do not just read the requirements!
 
 All deliverables must be written in Markdown and posted to your team GitHub repo. Graphics such as diagrams will be displayed in your markdown and included in your repo.
 
-Note that you do not need to update YouTrack. That is a good system for managing this material, but it is beyond the scope of the course. We only use YouTrack for the Gantt chart. When you one day find yourself working on a project with many requirements like this one, I hope you will consider using a system like YouTrack or Jira or Trello to help manage these artifacts.
+Note that you do not need to update your Gantt chart from the project plan effort. You are welcome to continue maintaining that for your project team, but it will not be graded again.
 
 ## Requirements
 

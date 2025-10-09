@@ -558,6 +558,24 @@ This component has five sections:
 - Decision Table
 - Presentation
 
+### Markdown Instructions
+
+You will organize your work for this component in a `~\requirements` folder. You will link to the work from your main `~\README.md` file.
+
+1. Place your requirements submission in your team repo under a folder called `~/requirements`.
+2. Your requirements will be placed in a document called `~/requirements/README.md`.
+3. Other artifacts such as diagrams, your decision table, decision table code example, etc. will also reside in `~/requirements`. 
+4. Link to all of the components of your requirements effort off of your main `~/README.md` file in the root of your repo. This includes:
+   - Requirements header
+   - Short introduction to the section
+   - Link to your requirements page
+   - Link to your use case diagram page
+   - Link to your decision table page
+5. Like before, use relative paths - not absolute file paths.
+
+Here is an example of this component in the main `README.md` page from a prior semester:
+![image-20251009121252164](README.assets/image-20251009121252164.png)
+
 ### Requirements Analysis and Elicitation
 
 Your customer produced some notes you must read very carefully.
@@ -663,35 +681,71 @@ Get everything written and let it sit for a day. Next, re-read it slowly. *Edit 
 
 **The best engineers are great communicators. Strive to be a great communicator.**
 
+#### Requirements Markdown
+
+1. Create a file called `~/requirements/README.md` to hold your requirements. Link to this file from your main `~/README.md` file in the requirements section.
+
+Here is an example from a prior semester:
+
+![image-20251009121949003](README.assets/image-20251009121949003.png)
+
 ### Use Case Diagram
 
 You will produce one use case diagram and link it to your submission. The diagram will be a professional-grade graphic in your Github repo that shows the epics in your project. Do not make the use case diagram into a process flow. 
 
 Show all actors, such as users, administrators, banks, etc. and their relationship(s) to the use case bubbles.
 
-Make your use case diagram show all of the epics in your requirements for all versions - not just Version 1.
-
-You can draw your diagram in any graphical tool except PowerPoint (which is awful for this). I recommend [PlantUML](https://plantuml.com/use-case-diagram), [Dia](http://dia-installer.de/), or [YEd](https://www.yworks.com/products/yed). All of these are free, open-source, and cross platform. Note that I like Dia the least, but a lot of other classes here use it. PlantUML is my favorite because it doesn't require drawing - you write the diagram as simple code and it draws it (awesome!).
+You can draw your diagram in any graphical tool *except PowerPoint* (which is awful for this). I recommend [PlantUML](https://plantuml.com/use-case-diagram), [Dia](http://dia-installer.de/), or [YEd](https://www.yworks.com/products/yed). All of these are free, open-source, and cross platform. Note that I like Dia the least, but a lot of other classes here use it. PlantUML is my favorite because it doesn't require drawing - you write the diagram as simple code and it draws it (awesome!). Mermaid is also excellent, but does not produce use cases very well. Do not hand-draw your use case diagram. Learn to use a professional-grade tool.
 
 However you make your diagram, you will add the graphic to your markdown and display it in your markdown work. The diagram must be in your Github repo and linked to your markdown.
 
-Your diagram must have actors, association lines, a bounding box, and all use case bubbles. Do *not* use extends or includes relationships and once again, this is *not* a process flow.
+Your diagram must have actors, association lines, a bounding box, and all use case bubbles. Do *not* use extends or includes relationships. You can use actor generalizations if you do it properly (do not if you do not know how to do this right).
 
 When you are done with the Use Case Diagram, ask yourself it it would help facilitate a good conversation about the high-level functions of your software solution and the actor involved in using the system. If not, revise it.
 
+**WARNING!** Do *not* make a process diagram. Carefully review the lecture slides for how to produce a use case diagram. They are not process flows. Produce a properly formatted use case diagram with the appropriate actors, use cases, bounding box, etc.
+
+#### Use Case Markdown
+
+1. Create a file called `~/requirements/use-case.md` to hold your use case diagram. Link to this file from your main `~/README.md` file in the requirements section.
+2. When I open the `use-case` file, I want to see the use case diagram (not click to open it).
+
 ### Decision Table
 
-You will produce a decision table showing the rules, conditions, and actions a user or administrator can perform. 
+You will produce a decision table showing the rules, conditions, and actions a user or administrator can perform. These include:
 
-Make your table show all of the rules and conditions for all versions - not just Version 1.
+- Login
+- Find and purchase an item
+- Manage inventory
+- View sales history report
 
-Format your decision table like the decision table in the lecture slides.ß
+Format your decision table like the decision table in the lecture slides. Here is the expectation.
+![image-20251009115925447](README.assets/image-20251009115925447.png)
 
-Your decision table can be made in markdown OR you can create it in something like Excel or Word and put a screenshot of the image into your markdown (screenshot must be in your GitHub repo and visible in the document).
+#### Formatting
+
+Markdown is not an ideal mechanism for formatting decision tables. It can be done, but it is complex.
+
+Create your decision table in an editing tool like Word, Google Docs, etc. that allows for tables with border controls and put a screenshot of the image into your markdown (screenshot must be in your GitHub repo and visible in the document without clicking it).
 
 I recommend creating your Decision Table *after* you write the requirements for all versions. Then you can pull the requirements out for the single decision table related to this part of the project.
 
 When you are done with your Decision Table, ask yourself if it simplifies understanding the conditional logical of your system. If not, revise it.
+
+#### Code Your Decision Table
+
+To prove your decision table is correct, write the code that demonstrates all of the conditions, rules, and actions in your team's project language (C#, Java, or Python). Note that you do not have to code the actions - just write the action that you would perform to the console. 
+
+See this example for a demo of what I expect: https://dotnetfiddle.net/Hzc4mt
+
+- Name the code `~/requirements/decision-table-code-demo.EXT` where `EXT`  is your language's standard extenion (cs, etc.).
+- Add a link called 'Decision Table Demo Code` to the code under the image of your decision table.
+- Include a screenshot (visible in your markdown) of your decision table demo under the link.
+
+#### Decision Table Markdown
+
+1. Create a file called `~/requirements/decision-table.md` to hold your decision table image, link to the code, and code screenshot. Link to this file from your main `~/README.md` file in the requirements section.
+2. When I open the decision table file, I want to see the decision table image (not click to open it), a link to the code, and see the code screenshot image (not click to open it).
 
 ### Requirements Introduction
 
@@ -701,9 +755,9 @@ This must be off of your project's main README.md. The purpose of this is to ass
 
 Make sure your requirements introduction is neatly integrated into the documentation from your Project Plan. At the end of the project, I should be able to find all of your material easily with links to the appropriate work without opening a dozen files in your repo.
 
-### Requirements Presentation
+### Requirements Loom Presentation
 
-After your requirements are complete and available in your team Github repo as an easy-to-read Markdown document, you will once again produce a 5 minute video presentation to your client (me) to give a high level review of your project focusing on requirements you consider highest priority, most interesting, highest risk, etc. *Do not just spend five minutes reading requirements.* 
+After your requirements are complete and available in your team Github repo as easy-to-read Markdown documents, you will once again produce a 5 minute video presentation to your client (me) to give a high level review of your project focusing on requirements you consider highest priority, most interesting, highest risk, etc. *Do not just spend five minutes reading requirements.* 
 
 Once again, the presentation is to simulate convincing your client that you are on the path to success, that you have carefully considered and are working to managing risk, and that your project is organized and carefully planned. I should feel happy and confident after watching your presentation that your team understands the project, is not missing anything and furthermore, is not adding anything that will increase the risk of failure. Like before, carefully plan your presentation and make it professional quality.
 
@@ -817,15 +871,7 @@ Next, remember that in software design, [form follows function](https://www.hype
 
 Finally, do not push this part of the project onto the "creative" person in the group because you are a back end coder and just like the hardcore stuff. All engineers must learn this skill. Good user interface design is another form of communication and we all know that *great engineers are great communicators*.
 
-[There are lots of resources for non-creatives to do good design. Find them and read them.](https://helloslate.co.uk/understanding-web-design-as-a-non-creative-person/)
-
-### A Note on Gender Stereotypes and "Creative" Design
-
-In the past I have seen teams (both academic teams and in my professional capacity) assign ownership of this part of the project to a female team member because "females are more creative" or "females are more more empathetic".
-
-*Do not fall into this trap.* It is a gender stereotype. There is a societal generalization that females are usually better at interface design, color, layout, and creative work. *Whether that is true or not,* do not assign work based on gender stereotypes. Assign work based on expertise, interest, and availability - not on some stereotype.
-
-Engineering remains male-dominated in part due to generalizations like this one. This is obviously unfair to female team members, often forcing females into roles defined by gender stereotypes as opposed to training, expertise, and interest. 
+[There are lots of resources for non-creatives to do good design. Find them and read them.](https://helloslate.co.uk/understanding-web-design-as-a-non-creative-person/) 
 
 ### Instructions and Grading Rubric
 
