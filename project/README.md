@@ -701,7 +701,12 @@ However you make your diagram, you will add the graphic to your markdown and dis
 
 Your diagram must have actors, association lines, a bounding box, and all use case bubbles. Do *not* use extends or includes relationships. You can use actor generalizations if you do it properly (do not if you do not know how to do this right).
 
-When you are done with the Use Case Diagram, ask yourself it it would help facilitate a good conversation about the high-level functions of your software solution and the actor involved in using the system. If not, revise it.
+When you are done with your use case diagram, ask yourself:
+
+- does this diagram simplifies understanding the large logic groups in your system? 
+- could I use this diagram with a stakeholder to explain the relationship of actors and use cases to one another without a lot of technical guidance how to understand the diagram's contents?
+
+If not, revise it.Use case diagrams are good for working with stakeholders and non-technical experts as a high level starting point for discussions.
 
 **WARNING!** Do *not* make a process diagram. Carefully review the lecture slides for how to produce a use case diagram. They are not process flows. Produce a properly formatted use case diagram with the appropriate actors, use cases, bounding box, etc.
 
@@ -709,6 +714,10 @@ When you are done with the Use Case Diagram, ask yourself it it would help facil
 
 1. Create a file called `~/requirements/use-case.md` to hold your use case diagram. Link to this file from your main `~/README.md` file in the requirements section.
 2. When I open the `use-case` file, I want to see the use case diagram (not click to open it).
+
+Here is an example use case diagram:
+
+![image-20251009123951077](README.assets/image-20251009123951077.png)
 
 ### Decision Table
 
@@ -729,8 +738,6 @@ Markdown is not an ideal mechanism for formatting decision tables. It can be don
 Create your decision table in an editing tool like Word, Google Docs, etc. that allows for tables with border controls and put a screenshot of the image into your markdown (screenshot must be in your GitHub repo and visible in the document without clicking it).
 
 I recommend creating your Decision Table *after* you write the requirements for all versions. Then you can pull the requirements out for the single decision table related to this part of the project.
-
-When you are done with your Decision Table, ask yourself if it simplifies understanding the conditional logical of your system. If not, revise it.
 
 #### Code Your Decision Table
 
