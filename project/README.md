@@ -739,7 +739,7 @@ To prove your decision table is correct, write the code that demonstrates all of
 See this example for a demo of what I expect: https://dotnetfiddle.net/Hzc4mt
 
 - Name the code `~/requirements/decision-table-code-demo.EXT` where `EXT`  is your language's standard extenion (cs, etc.).
-- Add a link called 'Decision Table Demo Code` to the code under the image of your decision table.
+- Add a link called `Decision Table Demo Code` to the code under the image of your decision table.
 - Include a screenshot (visible in your markdown) of your decision table demo under the link.
 
 #### Decision Table Markdown
