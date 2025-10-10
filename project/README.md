@@ -596,7 +596,7 @@ Users must be able to self-register (create their own account) and login. I also
 
 After a user logs in (or registers), the user must see a list of all *available* inventory sorted by highest price to lowest price. This is the "main" screen. They cannot see anything that is already sold. The inventory must have a short name, picture, price, and brief description, plus a button to add the item to a shopping cart. Obviously the user can add multiple items to the cart. All items must have at least one picture. I'd love it if we could do multiple pictures, but I heard that might be hard in this first release, so I can live with that in the future if necessary.
 
-The user should also be able to search the inventory by typing in a search box. The system will try to match the words in the box to either the item's name or description.
+The user must be able to search the inventory by typing in a search box. The system will try to match the words in the box to either the item's name or description.
 
 An item for sale might look like this:
 
