@@ -23,11 +23,11 @@ Your UI design and high fidelity mockup will demonstrate *every **must-have*** s
 **Here are your deliverables in this phase:**
 
 1.  A well-designed hot linked user interface prototype covering every must-have user interface built using [Marvel](https://marvelapp.com). Make sure you [carefully review all of the user interface design notes]((README.md#user-interface-design)) in the main project document. Focus on great usability. Ask your friends and family to try it out, then watch them as they move through your application prototype (this can be very painful, but very instructive). Your work must use Marvel. Do not submit designs made in PowerPoint, hand-drawn, or another design tool.
-2.  A 3-5 minute [Presentation](README.md#requirements-presentation) giving a high level review of the user interface prototype to your customer. Do not just read the screens! Explain why screen A goes to screen B, color choices, how your design was influenced by the technology you are using for implementation, etc. Remember that you are setting the customer's expectation for how the final application will look. Make sure your customer understands how they will move through the application. Check your video presentation into your team Github repo. You can also post a YouTube or Vimeo link if you wish.
+2.  A 3-5 minute [Presentation](README.md#requirements-presentation) giving a high level review of the user interface prototype to your customer. Do not just read the screens! Explain why screen A goes to screen B, color choices, how your design was influenced by the technology you are using for implementation, etc. Remember that you are setting the customer's expectation for how the final application will look. Make sure your customer understands how they will move through the application. 
 
-Post links to your two deliverables to your team's shared Github repo. Your links must be easy to find and well-integrated with the prior work your team has already done.
+Post links to your two deliverables to your team's shared Github repo using the instructions in the User Interface Design's Markdown section:
 
--  Public link to your Marvel user interface prototype. Verify you can use  the public link without a user account by logging out of Marvel, then trying the link. If you cannot access the link without a team account, then I cannot either.
+-  Provide a public link to your Marvel user interface prototype. Verify you can use  the public link *without* a user account by logging out of Marvel, then trying the link. If you cannot access the link without a team account, then I cannot either.
    ![image-20231107081901768](details-user-interface-design.assets/image-20231107081901768.png)
 -  Create your presentation video using Loom. Share the link to your Loom video in your GitHub repo. Make sure the link is public.
 
@@ -37,15 +37,13 @@ The entire team will work execute the user interface design EFFORT. *All of you 
 
 User interface design is critical to the success of your project. Be very careful here and strive for accuracy and outstanding communication technique.
 
-Once your work is complete, add a section called User Interface Design to your project's main README.md file that links to your Marvel project.
-
-Create your presentation video using Loom. Share the link to your Loom video in your GitHub repo. Make sure the link is public.
+Your work, like almost every facet of this project, will be submitted via GitHub - not D2L.
 
 ### Grading Rubric
 
 #### Component Percentages
 
-1.  Marvel user interface prototype - 80%
+1.  Polished, high fidelity, hotlinked Marvel user interface prototype - 80%
 2.  3-5 minute video presentation describing your user interface design - 20%
 
 #### User Interface Design Scoring
@@ -59,7 +57,7 @@ Create your presentation video using Loom. Share the link to your Loom video in 
 
 #### Presentation Scoring (20% total)
 
-*Do not just read requirements!*
+*Do not just read requirements!* I can read just fine so there is no need waste my time or yours. Point out what is important, what is good, what is not so good, etc.
 
 -  90% to 100%: meets all requirements, well-organized, easy to follow audio. Polished work gets the top grade.
 -  80% to 89%: meets all requirements, easy to follow audio, may have some organization issues.
