@@ -24,7 +24,7 @@ Note that you do not need to update your Gantt chart from the project plan effor
 1.  [Very carefully read the Requirements section in the main README file.](README.md#requirements) 
     I recommend printing it and carefully highlighting/commenting everything in that section. It is very detailed and I have high expectations for each team.
 2.  Check all documentation into your team Github repo. Make sure all documentation is linked, organized, spell checked, and grammatically correct.
-3.  Check your video presentation into your team Github repo. Create a folder called "presentations". Name the presentation "1-requirements-presentation.[extension]" [Free Github accounts do not allow massive files](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github), so be sure to compress your presentation a bit (not zipped [which won't help anyway] - [just shrink it to a smaller size where it's still high-resolution](https://multimedia.easeus.com/video-converter-tips/compress-video-vlc.html). Large files like video can be made to fit on Github easily, so be ready for this bit of effort if the original file is too big to check in without a bit of compression.
+3.  Create your presentation video using Loom. Share the link to your Loom video in your GitHub repo. Make sure the link is public.
 
 ### Submission Steps
 

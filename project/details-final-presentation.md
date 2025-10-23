@@ -12,14 +12,7 @@ Your 5 minute final presentation will include:
 
 1) A run through of your working (compiled/running) application that demonstrates every screen and logging on as both a user and an administrator.
 2) A comparison of your final application's user interface and your Marvel UI design. Explain why or why not your implementation met your design and what you learned from that. In real life, when your mockup does not match your final implementation, your client may be upset... it's like an architect designing a soaring skyscraper and the builder delivers a large tent. If your final work does not match your design, own it and learn from it. 
-
-Your presentation can be checked into GitHub as an MP4 or posted to a public link at YouTube or Vimeo.
-
-You will also:
-
-1) Create a link to your final presentation in your team's GitHub repo project documentation. Make sure the link is easily found and organized into your prior work.
-2) Answer questions about your implementation after we present your video to the entire group. Every team member must participate.
-3) Be present for both days of presentations. Attendance will be taken on presentation days.
+3) Create your presentation video using Loom. Share the link to your Loom video in your GitHub repo. Make sure the link is public.
 
 ### Submission Steps
 
@@ -37,10 +30,9 @@ Your submission must include:
 
 #### Component Percentages
 
-1.  Final Presentation - 90%
-2.  Attendance Both Presentation Days - 10%, *be present both days or 0%*
+1.  Final Presentation - 100*
 
-#### Final Presentation (90% of total)
+#### Final Presentation (100% of total)
 
 -  90 to 100%: meets all requirements, well-recorded, well organized, and highly professional. Polished work gets the top grade.
 -  80% to 89%: meets all requirements, may have some recording or organizational issues.
@@ -48,13 +40,6 @@ Your submission must include:
 -  69% or below: does not meet most requirements or is very poorly recorded.
 
 *Note: Presentations posted to Github will not be graded.* 
-
-#### Attendance Both Days (10% of total)
-
--  100% - Attended both days
--  0% - Attended one or zero days.
-
-*Attendance can be excused with documentation. See syllabus.*
 
 ### Academic Honesty
 

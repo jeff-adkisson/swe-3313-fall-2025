@@ -42,6 +42,8 @@ Technical design is critical to the success of your project. Be very careful her
 
 Once your work is complete, add a section called Technical Design to your project's main README.md file that links to your technical design documentation.
 
+Create your presentation video using Loom. Share the link to your Loom video in your GitHub repo. Make sure the link is public.
+
 ### Grading Rubric
 
 #### Component Percentages

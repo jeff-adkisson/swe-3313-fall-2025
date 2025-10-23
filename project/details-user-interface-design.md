@@ -29,7 +29,7 @@ Post links to your two deliverables to your team's shared Github repo. Your link
 
 -  Public link to your Marvel user interface prototype. Verify you can use  the public link without a user account by logging out of Marvel, then trying the link. If you cannot access the link without a team account, then I cannot either.
    ![image-20231107081901768](details-user-interface-design.assets/image-20231107081901768.png)
--  Link to your video presentation (shared in GitHub or a public YouTube or Vimeo link).
+-  Create your presentation video using Loom. Share the link to your Loom video in your GitHub repo. Make sure the link is public.
 
 ### Submission Steps
 
@@ -38,6 +38,8 @@ The entire team will work execute the user interface design EFFORT. *All of you 
 User interface design is critical to the success of your project. Be very careful here and strive for accuracy and outstanding communication technique.
 
 Once your work is complete, add a section called User Interface Design to your project's main README.md file that links to your Marvel project.
+
+Create your presentation video using Loom. Share the link to your Loom video in your GitHub repo. Make sure the link is public.
 
 ### Grading Rubric
 

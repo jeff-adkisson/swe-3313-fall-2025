@@ -880,6 +880,22 @@ Finally, do not push this part of the project onto the "creative" person in the 
 
 [There are lots of resources for non-creatives to do good design. Find them and read them.](https://helloslate.co.uk/understanding-web-design-as-a-non-creative-person/) 
 
+### Markdown Instructions
+
+This submission does not have its own folder. You will add an intro section and  two links to main `~\README.md` file.
+
+1. Create a section at the bottom of your main README.md file called **User Interface Design**.
+2. Link to your public Marvel prototype URL from. Call the link High Fidelity User Interface Design (Marvel).
+3. Link to your Loom video exploring your Marvel high fidelity prototype.
+
+Make sure the new section is easy to find and the links work properly.
+
+### Pro Tips For Top Scores
+
+- Require everyone on the team test your UI design prototype. Watch one another use it, then fix confusing screens, labels, flows, etc.  This type of design is highly iterative to reach a polished, friendly system. A great way to test a UI is to ask someone completely unrelated to your project to perform some action... for example, "hey Jeff's Mom, can you try this UI prototype and see if you can buy a Wisconsin Cheese Classic Gold Limited Edition Labubu with overnight shipping?" Then watch... stand back and experience the horror, the deep well of existential despair washing over you as she clicks everything except what you wanted. It is a true learning experience to watch someone fresh to your product or service use it. Before starting this type of testing, get some heavy duty tape to keep your mouth closed and perhaps keep you from punching holes in walls.,
+- I will remind you one last time that this is a high-fidelity mockup. If it looks primitive (all one color, inconsistent labeling, navigation, typefaces and sizes, etc.), it will score poorly. Never forget that most customers will look at this more closely than any other development artifact.
+- Design a site at which YOU would want to shop. We must be empathetic to our users if we want their patronage.
+
 ### Instructions and Grading Rubric
 
 [User Interface Design Instructions and Grading Rubric](details-user-interface-design.md)
