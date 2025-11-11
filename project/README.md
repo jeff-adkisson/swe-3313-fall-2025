@@ -917,13 +917,15 @@ Your Technical Design will include:
 - **Implementation Frameworks including *why* selected them**
    *For example, if you are using Java, the framework is Spring Boot. You might also use a CSS framework such as Bootstrap. Blazor is a framework that uses the C# language. Include useful links to documentation for your framework(s). You goal here is to help a developer understand your architecture and quickly learn more about it. Links to tutorials and videos are quite useful as well. As always, write using bullets, lists, and tables... avoid huge paragraphs.*
 
-- **Data Storage Plan**<br/>
+- **Data Storage Plan**
+   
    How will your application store data? Your choices are CSV (*not* recommended!), JSON, and SQL. Describe the libraries and technologies you will use to store data. For example, if you are using C#, you might use Dapper or Entity Framework for data access to write to an embedded SQLite database. If you are using Java, you might use a JDBC driver to access your SQLite database. Write this as a series of steps or bullet points. Avoid large long dull paragraphs.
    *Remember that the data you change/add **must remain available the next time you start the application** - this is a class project, but it needs to operate like a real application - starting fresh every time you launch the application is not realistic. Therefore, you must have persistent data storage - not just memory storage. As always, write using bullets, lists, and tables... avoid huge paragraphs.*
    
-- **Entity Relationship Diagram, Entity/Field Descriptions and Data Examples**<br/>
-   *All of the data your system manages and how each data type is related will be visually depicted here. Your ERD design is not an academic effort - this should match what you actually plan to implement - so plan carefully keeping in mind the data your user interface design demonstrated the application will display/manage.*
-
+- **Entity Relationship Diagram, Entity/Field Descriptions and Data Examples**
+   
+   All of the data your system manages and how each data type is related will be visually depicted here. Your ERD design is not an academic effort - this should match what you actually plan to implement - so plan carefully keeping in mind the data your user interface design demonstrated the application will display/manage.*
+   
    - **Entity Relationship Diagram**
       *Show every entity using Crows Foot notation, fields in the entity, plus the relationships and multiplicity.* I recommend drawing this in [PlantUML](https://www.plantuml.com/plantuml/svg/bLBDRXen4BxlKumu8YB1ePUSaZHfXTgcbFG531wbbhmUDBOfgy2xTx1nT-coHRdP_dxqpJU-yq5nYBMjq0KJ6hZt7hslvRR4hV667BnL0EDn7vZhyVWM5b_0k301exD3TQYArqzJ8v_awNnKm0K9m2NtM_YKY0A_KEGrphM8juhNlnJ3R3eLu5dLs7jyZAo2MBpWcfpsWcUNfzt6PEI1TDEgQhKxGv_Lrhpc4-x2LxL2sv8_JAlEY1_91Jb-PegRDAcCsdqRw0YkJWmBHYzWYl6TDNAPucyP_uuDAMdlzH7zcitcwDF5CZZtItnoWPjxQ-atYkUAo0gIbzT6ce2BrggLnKdM9NoXeY-YIKvDhonpFIWUZFaZea_bndg5mxIKwDJbt2rnGnpyAL-xW69MoY_tmUAlzNw-lIvoxLkSKHOixXJzvT_J3m6ZsGZs-viRUeFH50B1D-MQKLx3__XxuSzQVZV-EsIbjgghJ-G32Nb_p4GCinAeHsizbTD0pZP2RctlqEbOspy0) or [Mermaid](https://mermaid.live/edit#pako:eNp1Uk1vwjAM_StWdtkk-AHtreJDmhgFFdhh6w5ea9qINqmcsIkB_30p7bSVjlziOM_2e7aPItEpCV8QjyVmjGWswJ1REMHpNBzqI4TBfDIejqPH50kEPmBR6E_zizo2Zn2MZakyYMqkM9FKrcJ9-U4My1kPVeKO-k5Hprj2vr5BhWzbmufmWk6i1SK8wVGaDqhPMWX5QWyeZELKkKMHsVjnBEXruIvFdcy95z3AVrKxIZbk8AtVHMDzIMmRMbEuHSBT0x9K-wmgwCa291HlWhFs_vRIKguYUUdxR2NfUoIc_df4AUxnN_Rf5CfUAbXF5kG4mQaj9SZyxXSttKZoNXwRa9DsJuW01vP3L5M0YiBK4hJl6pbpwi4WNienVvjOTJF3dUvODod7q1cHlQjf8p4GYl-laKldvx9nhepFa_fcYmHo_A0pm9Hm). Do *not* draw your ERD using [Chen Notation](https://vertabelo.com/blog/chen-erd-notation/). You must use [Crows Foot Notation](https://www.freecodecamp.org/news/crows-foot-notation-relationship-symbols-and-how-to-read-diagrams/), *Following is a PlantUML example from a design document I recently produced:*
       ![image-20231107085055136](README.assets/image-20231107085055136.png)
@@ -933,12 +935,18 @@ Your Technical Design will include:
    - **Example Data**
       *For each entity in your entity relationship diagram, create a table showing 3-5 sample records. Make sure they follow your data types described in the Table of Field Descriptions and are properly related to one another if there are foreign keys to other entities. Your goal here is to ensure a developer reading your entity design plan can see realistic examples of the types of data and how they related to one another.*
       ![image-20231107090519995](README.assets/image-20231107090519995.png)
-
+   
 - **Database Seed Data**<br/>
    When you start your application, what is *already* in the system? [We call this "seed data"](https://en.wikipedia.org/wiki/Database_seeding). Typically that includes at least one administrator account, your inventory items and photos, etc. This is *not* the same as example data. This is actual data your application requires to simply start the first time and will be present in your implementation.
    *Create a table describing your seed data for each entity that will contain data when the application starts.*
    ![image-20231107090505665](README.assets/image-20231107090505665.png)
 
+- **Authentication and Authorization Plan**
+   
+   Here you will describe the technical approach your application will use to determine whether someone is a User or an Administrator. Remember - an Administrator is simply a User with additional administrative rights. Therefore, your implementation will not have two login screens. Carefully think about how to design this mechanism. When writing this plan, use technical language. If you plan to implement this via polymorphism, show the class diagram. You might include a code fragment demonstrating how to determine if a user has administrative rights. The point of this section is to ensure your developers know exactly how to present the actions each logged-in user is authorized to perform.
+   
+   - Note: This is not a security class, but it will help if you understand the difference between *authentication* and *authorization*. Authentication identifies *who* is logging in. Authorization determines the action an authenticated entity can perform. Separate these responsibilities in your design (and your code). 
+   
 - [**Coding Style Guide**](https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html)<br/>
    *Here you will link to your language's coding style guide, plus add any coding style instructions you expect all developers to follow. A common feature of a coding style guide is source control management, such as use of git and perhaps a branch management strategy such as [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=What%20is%20Gitflow%3F,lived%20branches%20and%20larger%20commits.) The ultimate goal is that all code follows a consistent style and appears to have been written by one person. Think about what will help future developers will need to understand your system, including commenting guidelines, naming conventions, filename conventions, etc. As always, write using bullets, lists, and tables... avoid huge paragraphs. Here are some good examples:*
 
@@ -975,7 +983,7 @@ As always, your work will be written in Markdown and posted to your team project
    - C. Data Storage Plan
 
    - D. Entity Relationship Diagram
-     *Your ERD must display inline inside of the technical design file. I recommend creating your ERD in Mermaid (which GitHub will render automatically if you follow this method: https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams). If your ERD is an image file, call it `~/technical-design/assets/entity-relationship-diagram.png` (or `jpg`).*
+     *Your ER diagram must display inline in your technical design file. I recommend creating your ERD in Mermaid (which GitHub will render automatically if you follow this method: https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams). If your ERD is an image file, call it `~/technical-design/assets/entity-relationship-diagram.png` (or `jpg`).*
 
    - E. Entity/Field Descriptions
 
@@ -983,9 +991,11 @@ As always, your work will be written in Markdown and posted to your team project
 
    - G. Database Seed Data
 
-   - H. Coding Style Guide
+   - H. Authentication and Authorization Plan
 
-   - G. Technical Design Presentation
+   - I. Coding Style Guide
+
+   - Technical Design Presentation
 
 Here is a screenshot from a prior semester (this does not exactly your project):
 ![image-20251111155043579](README.assets/image-20251111155043579.png)

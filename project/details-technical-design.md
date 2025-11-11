@@ -23,10 +23,27 @@ At this point, you have devoted considerable time to thinking about and working 
         -  **F. Example Data** For each entity in your entity relationship diagram, create a table showing 3-5 sample records. Make sure they follow your data types described in the Table of Field Descriptions and are properly related to one another if there are foreign keys to other entities. Your goal here is to ensure a developer reading your entity design plan can see realistic examples of the types of data and how they related to one another.
         -  **G. Database Seed Data**
            When you start your application, what is *already* in the system? [We call this "seed data"](https://en.wikipedia.org/wiki/Database_seeding). Typically that includes at least one administrator account, your inventory items and photos, etc. This is *not* the same as example data. This is actual data your application requires to simply start the first time and will be present in your implementation. *Create a table describing your seed data for each entity that will contain data when the application starts.
-    4.  [**H. Coding Style Guide**](https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html) (1 section, H)
+    4.  **H. Authentication and Authorization Plan** (1 section, H)
+        When a user logs in, how do you if they are a User or an Administrator? Design how to authenticate users (identify who is logging in) and how to authorize their actions (what can the user do?). Your application will *not* have separate login screens for users and administrators, so you must separate the responsibilities of authentication and authorization. This section must use technical language that clearly demonstrates how these functions will operate. Developers reading this section must be able to understand how to implement your system's authentication and authorization functions. If you plan to perform this via polymorphism, include a class diagram. Code snippets are useful in sections like this.
+    5.  [**I. Coding Style Guide**](https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html) (1 section, I)
         Here you will link to your language's coding style guide, plus add any coding style instructions you expect all developers to follow. A common feature of a coding style guide is source control management, such as use of git and perhaps a branch management strategy such as [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=What is Gitflow%3F,lived branches and larger commits.) The ultimate goal is that all code follows a consistent style and appears to have been written by one person. Think about what will help future developers will need to understand your system, including commenting guidelines, naming conventions, filename conventions, etc. As always, write using bullets, lists, and tables... avoid huge paragraphs.
-    5.  **Presentation** (1 section)
+    6.  **Presentation** (1 section)
         Include a link that points to your technical design Loom presentation. Make sure the Loom presentation is public.
+
+#### AI Attribution
+
+Many teams are using AI to generate documentation. It is *very* evident in some submissions. This is permitted, but you *must* (by KSU policy) give attribution when you use AI. This is stated in the syllabus. Ensure there is proper attribution like you would cite any source to avoid penalties. The following is from the course syllabus.
+
+![image-20251111161950350](details-technical-design.assets/image-20251111161950350.png)
+
+Here is the approach you must follow IF your team uses an AI for this project (this citation methodology was produced by ChatGPT, by the way 😀):
+![image-20251111162349957](details-technical-design.assets/image-20251111162349957.png)
+
+I recommend that you do not use AI to generate material for this project. That approach is taking away *valuable* experience you need to succeed in a very challenging job market.
+
+Use AI to verify your work *after* you do it. Letting it do the work for you will leave you without concrete skills at graduation. Learn how to direct an AI to help you solve problems. Think of it as a smart employee that you need to coach, guide, and approve their work. If you have no expertise, you cannot manage the AI - it is managing you. 
+
+An AI will produce the *best* results when weilded by an expert. Expertise is earned by doing the work. Letting the AI do the work is the easy route today and the hard route at graduation. Grades do not matter in the real world - only expertise.
 
 ### Submission Steps
 
@@ -38,11 +55,12 @@ Submission is via your team GitHub repo. Material not in your team GitHub repo (
 
 #### Component Percentages
 
-1.  Implementation Language(s) and Framework(s) (2 sections, A & B) - 20%
+1.  Implementation Language(s) and Framework(s) (2 sections, A & B) - 10%
 2.  Data Storage Plan (1 section, C) - 15%
 3.  Entity Design (4 sections, D, E, F & G) - 50%
-4.  Coding Style Guide (1 section, H) - 5%
-5.  3-5 minute video presentation describing your plan, technology selection and team assignments (Github) - 10%
+4.  Authentication and Authorization Plan (1 second, H) - 15%
+5.  Coding Style Guide (1 section, I) - 5%
+6.  3-5 minute video presentation describing your plan, technology selection and team assignments (Github) - 5%
 
 #### File Structure (0% if correct, -10% if incorrect)
 
