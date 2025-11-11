@@ -9,12 +9,12 @@ At this point, you have devoted considerable time to thinking about and working 
 1.  [Start by carefully reading the Technical Design phase of the project.](README.md#technical-design)
 2.  Produce all documentation in Markdown and properly integrate it into your team's GitHub project repository so it is easily found and read. Ensure that you write a concise introduction to the technical design.
 3.  Your Technical Design includes the following 8 deliverables in your Technical Design document (prefaced by a Table of Contents linked to each section):
-    1.  **Implementation Language(s) and Framework(s)** (2 sections)
+    1.  **Implementation Language(s) and Framework(s)** (2 sections, A-B)
         1.  **A. Implementation Language(s) including *why* your team selected them** For example, if you are using Flask, your languages are Python and HTML. Flask and Spring and ASP.NET are not languages - they are frameworks built in Python, Java, and C#. As always, write using bullets, lists, and tables... avoid huge paragraphs. Include links to your language's documentation, useful tutorials, etc. Your goal here is to help a developer understand why you chose the language and quickly learn more about it.
         2.  **B. Implementation Framework(s) including *why* your team selected them** For example, if you are using Java, the framework is Spring. Consider using a CSS framework, such as Bootstrap. Spring is a Java-based framework. Blazor is a C#-based framework. Include useful links to documentation for your framework(s). Your goal here is to help a developer understand your architecture and quickly learn more about it. Links to tutorials and videos are also quite helpful. As always, write using bullets, lists, and tables... avoid huge paragraphs.
-    2.  **C. Data Storage Plan** (1 section)
+    2.  **C. Data Storage Plan** (1 section, C)
         How will your application store data? Your choices are CSV, JSON, and SQL. Describe the libraries and technologies you will use to store data. For example, if you are using C#, you might use Dapper or Entity Framework for data access to write to an embedded SQLite database. If you are using Java, you might use a JDBC driver to access a Postgres database. Write this as a series of steps or bullet points. Avoid long, dull paragraphs. *Remember that the data you change/add must remain available the next time you start the application. This is a class project, but it needs to operate like a real application. Starting fresh every time you launch the application is not realistic. Therefore, you must have persistent data storage - not just memory storage. As always, write using bullets, lists, and tables... avoid huge paragraphs.*
-    3.  **Entity Relationship Diagram, Entity/Field Descriptions and Data Examples** (4 sections)
+    3.  **Entity Relationship Diagram, Entity/Field Descriptions and Data Examples** (4 sections, D-G)
         All the data your system manages, along with its relationships to each data type, will be visually depicted here. Your ERD design is not an academic exercise - it must align with what you actually plan to implement. Therefore, plan carefully, keeping in mind the data your User Interface design shows your application displaying and managing.
         -  **D. Entity Relationship Diagram:** Show every entity using Crows Foot notation, fields in the entity, plus the relationships and multiplicity.* I recommend drawing this in [Mermaid](https://mermaid.live/edit#pako:eNp1Uk1vwjAM_StWdtkk-AHtreJDmhgFFdhh6w5ea9qINqmcsIkB_30p7bSVjlziOM_2e7aPItEpCV8QjyVmjGWswJ1REMHpNBzqI4TBfDIejqPH50kEPmBR6E_zizo2Zn2MZakyYMqkM9FKrcJ9-U4My1kPVeKO-k5Hprj2vr5BhWzbmufmWk6i1SK8wVGaDqhPMWX5QWyeZELKkKMHsVjnBEXruIvFdcy95z3AVrKxIZbk8AtVHMDzIMmRMbEuHSBT0x9K-wmgwCa291HlWhFs_vRIKguYUUdxR2NfUoIc_df4AUxnN_Rf5CfUAbXF5kG4mQaj9SZyxXSttKZoNXwRa9DsJuW01vP3L5M0YiBK4hJl6pbpwi4WNienVvjOTJF3dUvODod7q1cHlQjf8p4GYl-laKldvx9nhepFa_fcYmHo_A0pm9Hm). Do *not* draw your ERD using [Chen Notation](https://vertabelo.com/blog/chen-erd-notation/). You must use [Crows Foot Notation](https://www.freecodecamp.org/news/crows-foot-notation-relationship-symbols-and-how-to-read-diagrams/). Your diagram must be displayed inline in your technical design document.
 
@@ -23,7 +23,7 @@ At this point, you have devoted considerable time to thinking about and working 
         -  **F. Example Data** For each entity in your entity relationship diagram, create a table showing 3-5 sample records. Make sure they follow your data types described in the Table of Field Descriptions and are properly related to one another if there are foreign keys to other entities. Your goal here is to ensure a developer reading your entity design plan can see realistic examples of the types of data and how they related to one another.
         -  **G. Database Seed Data**
            When you start your application, what is *already* in the system? [We call this "seed data"](https://en.wikipedia.org/wiki/Database_seeding). Typically that includes at least one administrator account, your inventory items and photos, etc. This is *not* the same as example data. This is actual data your application requires to simply start the first time and will be present in your implementation. *Create a table describing your seed data for each entity that will contain data when the application starts.
-    4.  [**H. Coding Style Guide**](https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html) (1 section)
+    4.  [**H. Coding Style Guide**](https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html) (1 section, H)
         Here you will link to your language's coding style guide, plus add any coding style instructions you expect all developers to follow. A common feature of a coding style guide is source control management, such as use of git and perhaps a branch management strategy such as [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=What is Gitflow%3F,lived branches and larger commits.) The ultimate goal is that all code follows a consistent style and appears to have been written by one person. Think about what will help future developers will need to understand your system, including commenting guidelines, naming conventions, filename conventions, etc. As always, write using bullets, lists, and tables... avoid huge paragraphs.
     5.  **Presentation** (1 section)
         Include a link that points to your technical design Loom presentation. Make sure the Loom presentation is public.
@@ -32,11 +32,7 @@ At this point, you have devoted considerable time to thinking about and working 
 
 The entire team will work execute the technical design EFFORT. *All of you need* to review the completed work. This is a team effort and the team will succeed or fail as a group.
 
-Technical design is critical to the success of your project. Be very careful here and strive for accuracy and outstanding communication technique.
-
-Once your work is complete, add a section called Technical Design to your project's main README.md file that links to your technical design documentation.
-
-Create your presentation video using Loom. Share the link to your Loom video in your GitHub repo. Make sure the link is public.
+Submission is via your team GitHub repo. Material not in your team GitHub repo (or linked to Loom) will not be graded. Do not spread your project over multiple repositories.
 
 ### Grading Rubric
 
