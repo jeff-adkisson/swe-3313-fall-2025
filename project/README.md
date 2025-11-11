@@ -917,6 +917,10 @@ Your Technical Design will include:
 - **Implementation Frameworks including *why* selected them**
    *For example, if you are using Java, the framework is Spring Boot. You might also use a CSS framework such as Bootstrap. Blazor is a framework that uses the C# language. Include useful links to documentation for your framework(s). You goal here is to help a developer understand your architecture and quickly learn more about it. Links to tutorials and videos are quite useful as well. As always, write using bullets, lists, and tables... avoid huge paragraphs.*
 
+- **Data Storage Plan**<br/>
+   How will your application store data? Your choices are CSV (*not* recommended!), JSON, and SQL. Describe the libraries and technologies you will use to store data. For example, if you are using C#, you might use Dapper or Entity Framework for data access to write to an embedded SQLite database. If you are using Java, you might use a JDBC driver to access your SQLite database. Write this as a series of steps or bullet points. Avoid large long dull paragraphs.
+   *Remember that the data you change/add **must remain available the next time you start the application** - this is a class project, but it needs to operate like a real application - starting fresh every time you launch the application is not realistic. Therefore, you must have persistent data storage - not just memory storage. As always, write using bullets, lists, and tables... avoid huge paragraphs.*
+   
 - **Entity Relationship Diagram, Entity/Field Descriptions and Data Examples**<br/>
    *All of the data your system manages and how each data type is related will be visually depicted here. Your ERD design is not an academic effort - this should match what you actually plan to implement - so plan carefully keeping in mind the data your user interface design demonstrated the application will display/manage.*
 
@@ -934,10 +938,6 @@ Your Technical Design will include:
    When you start your application, what is *already* in the system? [We call this "seed data"](https://en.wikipedia.org/wiki/Database_seeding). Typically that includes at least one administrator account, your inventory items and photos, etc. This is *not* the same as example data. This is actual data your application requires to simply start the first time and will be present in your implementation.
    *Create a table describing your seed data for each entity that will contain data when the application starts.*
    ![image-20231107090505665](README.assets/image-20231107090505665.png)
-
-- **Data Storage Plan**<br/>
-   How will your application store data? Your choices are CSV (not recommended!), JSON, and SQL. Describe the libraries and technologies you will use to store data. For example, if you are using C#, you might use Dapper or Entity Framework for data access to write to an embedded SQLite database. If you are using Java, you might use a JDBC driver to access your SQLite database. Write this as a series of steps or bullet points. Avoid large long dull paragraphs.
-   *Remember that the data you change/add **must remain available the next time you start the application** - this is a class project, but it needs to operate like a real application - starting fresh every time you launch the application is not realistic. Therefore, you must have persistent data storage - not just memory storage. As always, write using bullets, lists, and tables... avoid huge paragraphs.*
 
 - [**Coding Style Guide**](https://www.cs.cornell.edu/courses/JavaAndDS/JavaStyle.html)<br/>
    *Here you will link to your language's coding style guide, plus add any coding style instructions you expect all developers to follow. A common feature of a coding style guide is source control management, such as use of git and perhaps a branch management strategy such as [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=What%20is%20Gitflow%3F,lived%20branches%20and%20larger%20commits.) The ultimate goal is that all code follows a consistent style and appears to have been written by one person. Think about what will help future developers will need to understand your system, including commenting guidelines, naming conventions, filename conventions, etc. As always, write using bullets, lists, and tables... avoid huge paragraphs. Here are some good examples:*
@@ -961,6 +961,34 @@ The audience for your Technical Design is a software engineer - not your client 
 After your Technical Design is complete and posted to your team GitHub repo, you will produce yet another 5 minute video presentation going over the Technical Design. In this case, your audience is your remote developer (who happens to be me). Therefore, you need to introduce the material, call out what is important, describe areas of high risk, etc. Remember that the developer can read, so just reading the document to the developer is a waste of time... give the developer some perspective and try to focus on high priority features and high risk areas of concern.
 
 As always, your work will be written in Markdown and posted to your team project in your shared GitHub repo. Your work must be well-organized, linked off your main README.md file, professionally produced, accurate, and exhibit excellent grammar and spelling.
+
+#### Technical Design Markdown
+
+1. In your main `~/README.md file` create a new section called Technical Design below the User Interface Design section. 
+   1. Create a short introduction to the technical design section
+   2. Below the introduction, place a link called `Technical Design` pointing to the `~/technical-design/README.md` file (created in the next step).
+2. Create a file called `~/technical-design/README.md` to hold your technical design. Link to this file from your main `~/README.md` file in the requirements section. This page's title is `Technical Design`. This should be an H1 (#).
+3. Within the technical design `README.md` file, create these sections in this order. Place a table of contents below the title with internal links to each section.  Title each section with an H2 (##).
+   - A. Implementation Language(s) 
+   - B. Implementation Framework(s)
+
+   - C. Data Storage Plan
+
+   - D. Entity Relationship Diagram
+     *Your ERD must display inline inside of the technical design file. I recommend creating your ERD in Mermaid (which GitHub will render automatically if you follow this method: https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams). If your ERD is an image file, call it `~/technical-design/assets/entity-relationship-diagram.png` (or `jpg`).*
+
+   - E. Entity/Field Descriptions
+
+   - F. Data Examples
+
+   - G. Database Seed Data
+
+   - H. Coding Style Guide
+
+   - G. Technical Design Presentation
+
+Here is a screenshot from a prior semester (this does not exactly your project):
+![image-20251111155043579](README.assets/image-20251111155043579.png)
 
 ### Instructions and Grading Rubric
 
