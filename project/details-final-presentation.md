@@ -8,11 +8,13 @@ This is where you get to shine. Many final presentations just stagger me. By now
 
 ## Requirements
 
-Your 5 minute final presentation will include:
+Your 5 minute final presentation Loom video will include:
 
-1) A run through of your working (compiled/running) application that demonstrates every screen and logging on as both a user and an administrator.
-2) A comparison of your final application's user interface and your Marvel UI design. Explain why or why not your implementation met your design and what you learned from that. In real life, when your mockup does not match your final implementation, your client may be upset... it's like an architect designing a soaring skyscraper and the builder delivers a large tent. If your final work does not match your design, own it and learn from it. 
-3) Create your presentation video using Loom. Share the link to your Loom video in your GitHub repo. Make sure the link is public.
+1) A demonstration of you compiling and launching your application from a terminal window.
+2) A run-through of your working (compiled/running) application that demonstrates every screen and logging on as both a user and an administrator.
+3) A comparison of your final application's user interface and your Marvel UI design. Switch between your application and Marvel for each comparison. Explain why or why not your implementation met your design and what you learned from that. In real life, when your mockup does not match your final implementation, your client may be upset... it's like an architect designing a soaring skyscraper and the builder delivers a large tent. If your final work does not match your design, own it and learn from it. 
+4) Share the link to your Loom video in your GitHub repo. Make sure the link is public.
+   - If necessary, create two Loom videos (the Free version limits each to 5 minutes). In the first, include the compilation, launch, and run-through. In the second, show the live comparison with Marvel.
 
 ### Submission Steps
 
@@ -22,24 +24,27 @@ You have worked hard to get here. Show off your work and be proud of what you ac
 
 Your submission must include:
 
-- a link to your team's final presentation video. This video must show you starting and running your application, plus a side-by-side comparison of your completed application to your Marvel prototype along with an explanation of any discrepancy's between design and implementation.
-- If necessary, you can submit two Loom videos - one for the running application and one doing the comparison of your application to Marvel. Label everything clearly so it is easy for me to find and review your submission.
-- Your team's video presentation links must be visible off of your team's main README.md in a Final Presentation section.
+- a link to your team's final presentation video(s) [two maximum]. This video must show you starting and running your application, plus a side-by-side comparison of your completed application to your Marvel prototype along with an explanation of any discrepancy's between design and implementation.
+- Your team's video presentation link(s) must be visible on your team's main `~\README.md` in the `Final Presentation` section.
 
 ### Grading Rubric
 
 #### Component Percentages
 
-1.  Final Presentation - 100*
+1.  Final Presentation - 100%
+    - Compile and launch from a terminal (5% penalty for starting from an IDE)
+    - Application run-through (user and admin) of all functionality
+    - Live comparison of each feature between Marvel UI Design and the actual implementation
+    - One to two 5-minute public Loom videos
 
 #### Final Presentation (100% of total)
 
--  90 to 100%: meets all requirements, well-recorded, well organized, and highly professional. Polished work gets the top grade.
+-  90 to 100%: meets all requirements, well-recorded, well-organized, and highly professional. Polished work gets the top grade.
 -  80% to 89%: meets all requirements, may have some recording or organizational issues.
 -  70% to 79%: meets most requirements, may have some recording or organizational issues.
 -  69% or below: does not meet most requirements or is very poorly recorded.
 
-*Note: Presentations posted to Github will not be graded.* 
+*Note: Presentations posted to GitHub will not be graded.* 
 
 ### Academic Honesty
 

@@ -1131,20 +1131,23 @@ Once your implementation is ready, you will produce a polished 5 minute presenta
 
 This is where you get to shine. Many final presentations just stagger me. By now you will know how to make a great presentation for the target audience.
 
-Your 5 minute final presentation will include:
+Your 5 minute final presentation (using Loom) must include:
 
-1) A run through of your application that demonstrates every screen and logging on as both a user and an administrator.
-2) A comparison of your final application's user interface and your Marvel UI design. Explain why or why not your implementation met your design and what you learned from that. In real life, when your mockup does not match your final implementation, your client may be upset... it's like an architect designing a soaring skyscraper and the builder delivers a large tent. If your final work does not match your design, own it and learn from it. 
-3) Anything awesome you want to show off.
+1) A demonstration of you compiling and launching your application from a terminal window.
+2) A run through of your application that demonstrates every screen and logging on as both a user and an administrator.
+3) A live comparison of your final application's user interface and your Marvel UI design (switch between Marvel and your running application). Explain why or why not your implementation met your design and what you learned from that. In real life, when your mockup does not match your final implementation, your client may be upset... it's like an architect designing a soaring skyscraper and the builder delivers a large tent. If your final work does not match your design, own it and learn from it. 
+4) Anything awesome you want to show off.
 
-After the entire class views your final presentation, your client (me) will ask you some questions. Your team must be present - everyone must participate.
+### Additional Information
 
-We will use two lecture periods for final presentations. Each presentation and Q&A session will take about 10-12 minutes. Attendance is mandatory for all students for both presentation days.
+- If necessary, you can submit two Loom videos - one for the compiling/launching/run through of the application and a second one doing the comparison of your application to Marvel. Label everything clearly so it is easy for me to find and review your submission. You cannot submit more than two Loom videos.
+- If your team cannot start your application from a terminal window, you can run it from an IDE, but this will result in a 5% penalty. Learn how to run your application without an IDE.
 
-Presentation order will be randomly selected (except late teams, which must present on Dec 5).
+### Markdown
 
-- Presentations 1-5 on Thurs Nov 30
-- Presentations 6-10 on Tues Dec 5
+In your main `~/README.md`, create a section at the end called `Final Presentation` below the `Implementation` section.  
+
+Add link(s) to your public Loom video(s) [maximum of two] in the `Final Presentation` section.
 
 ### Instructions and Grading Rubric
 

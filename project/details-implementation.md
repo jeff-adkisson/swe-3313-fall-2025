@@ -32,13 +32,13 @@ Our number one goal as Software Engineers is to deliver working software. All of
 
 Your submission must include:
 
-- *all* of your working source code in your `/source` directory.
+- *all* of your working source code within your team repository's `~/source` directory.
   - If your project also uses client-side compilation of SPA code, it must be part of your build process. I should not have to execute a dozen steps to compile your application. Script the build process via Bash if necessary. This will not affect most projects, but those of you who *chose* a more complex scenario must simplify the build process for your users. If you have an SPA that requires separate compilation, create multiple directories under `~/source` and a build script in the root of `~/source`.
 
-- a `.gitignore` file in your `/source` directory preventing checkin of compilation artifacts.
+- a `.gitignore` file in your `~/source` directory preventing checkin of compilation artifacts.
   - Do not add your `.gitignore` file last. Add it first. Otherwise, you have to manually go back and remove the things `.gitignore` tells the source control system to overlook.
 
-- an `~/implementation/README.md` file with Environment Setup, Database Setup,. How to Start and Login, and Troubleshooting.
+- an `~/implementation/README.md` file with Environment Setup, Database Setup, How to Start and Login, and Troubleshooting.
   - Make grading your project easy (and put a smile on my face) by ensuring this document is complete, friendly, and well-organized.
 
 
@@ -67,7 +67,24 @@ I am not giving points for producing working, compiled source code that follows 
 
 Write your code well.
 
-#### Components (80% of total)
+### Extra Credit
+
+Occasionally I award extra credit for something that impresses me. In the past I have awarded extra credit for:
+
+- use of an ORM/relational mapper for building the database.
+- wrapping the entire application in a Docker container to make running it a breeze
+- hosting the application at Azure, Digital Ocean, etc.
+- adding the ability to manage inventory (including images) from the Administration area
+
+Do not count on extra credit. It is awarded at my discretion.
+
+NOTE: If you do extra work, but do not complete the main application, then I will not offset the loss with extra credit. Finish the application you are committed to deliver, then do extra/cool stuff if you want.
+
+### Goldplating
+
+If you add complexity to the project with additional features, they must work. Do not make a simple app that works into a complicated app that fails. Goldplate your project with caution to avoid penalties.
+
+### Components (80% of total)
 
 -  90 to 100%: meets all requirements, well-coded, well organized, and highly professional. Polished work gets the top grade.
 -  80% to 89%: meets all requirements, may have some coding or organizational issues.
