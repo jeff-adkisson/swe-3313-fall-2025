@@ -2,29 +2,29 @@
 
 # Final Presentation Instructions and Rubric
 
-Once your implementation is ready, you will produce a polished 5 minute presentation of your working application. Your audience is your client (me). Assume that your client (me) brought 40 members of his team (all of you) with him to view the final presentation.
+Once your implementation is ready, you will produce a polished 5-minute presentation of your working application. Your audience is your client (me). Assume that your client (me) brought 40 members of his team (all of you) with him to view the final presentation.
 
-This is where you get to shine. Many final presentations just stagger me. By now you will know how to make a great presentation for the target audience.
+This is where you get to shine. Many final presentations just stagger me. By now, you will know how to make an excellent presentation for the target audience.
 
 ## Requirements
 
-Your 5 minute final presentation Loom video will include:
+Your 5-minute final presentation Loom video will include:
 
 1) A demonstration of you compiling and launching your application from a terminal window.
 2) A run-through of your working (compiled/running) application that demonstrates every screen and logging on as both a user and an administrator.
-3) A comparison of your final application's user interface and your Marvel UI design. Switch between your application and Marvel for each comparison. Explain why or why not your implementation met your design and what you learned from that. In real life, when your mockup does not match your final implementation, your client may be upset... it's like an architect designing a soaring skyscraper and the builder delivers a large tent. If your final work does not match your design, own it and learn from it. 
+3) A comparison of your final application's user interface and your Marvel UI design. Switch between your application and Marvel for each comparison. Explain why or why not your implementation met your design and what you learned from that. In real life, when your mockup does not match your final implementation, your client may be upset. It's like an architect designing a soaring skyscraper, only to have the builder deliver a large tent. If your final work does not match your design, own it and learn from it. 
 4) Share the link to your Loom video in your GitHub repo. Make sure the link is public.
    - If necessary, create two Loom videos (the Free version limits each to 5 minutes). In the first, include the compilation, launch, and run-through. In the second, show the live comparison with Marvel.
 
 ### Submission Steps
 
-The entire team will work execute the final presentation EFFORT. *All of you need* to review the completed video. This is a team effort and the team will succeed or fail as a group.
+*All of you must* review the completed video(s). This is a team effort, and the team will succeed or fail together.
 
 You have worked hard to get here. Show off your work and be proud of what you accomplished. Put some real effort and polish into your presentation to get your client excited about what you produced.
 
 Your submission must include:
 
-- a link to your team's final presentation video(s) [two maximum]. This video must show you starting and running your application, plus a side-by-side comparison of your completed application to your Marvel prototype along with an explanation of any discrepancy's between design and implementation.
+- a link to your team's final presentation video(s) [two maximum]. This video must show you starting and running your application, a side-by-side comparison of your completed application with your Marvel prototype, and an explanation of any discrepancy between design and implementation.
 - Your team's video presentation link(s) must be visible on your team's main `~\README.md` in the `Final Presentation` section.
 
 ### Grading Rubric
