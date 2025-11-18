@@ -918,12 +918,12 @@ Your Technical Design will include:
    *For example, if you are using Java, the framework is Spring Boot. You might also use a CSS framework such as Bootstrap. Blazor is a framework that uses the C# language. Include useful links to documentation for your framework(s). You goal here is to help a developer understand your architecture and quickly learn more about it. Links to tutorials and videos are quite useful as well. As always, write using bullets, lists, and tables... avoid huge paragraphs.*
 
 - **Data Storage Plan**
-   
+  
    How will your application store data? Your choices are CSV (*not* recommended!), JSON, and SQL. Describe the libraries and technologies you will use to store data. For example, if you are using C#, you might use Dapper or Entity Framework for data access to write to an embedded SQLite database. If you are using Java, you might use a JDBC driver to access your SQLite database. Write this as a series of steps or bullet points. Avoid large long dull paragraphs.
    *Remember that the data you change/add **must remain available the next time you start the application** - this is a class project, but it needs to operate like a real application - starting fresh every time you launch the application is not realistic. Therefore, you must have persistent data storage - not just memory storage. As always, write using bullets, lists, and tables... avoid huge paragraphs.*
    
 - **Entity Relationship Diagram, Entity/Field Descriptions and Data Examples**
-   
+  
    All of the data your system manages and how each data type is related will be visually depicted here. Your ERD design is not an academic effort - this should match what you actually plan to implement - so plan carefully keeping in mind the data your user interface design demonstrated the application will display/manage.*
    
    - **Entity Relationship Diagram**
@@ -942,7 +942,7 @@ Your Technical Design will include:
    ![image-20231107090505665](README.assets/image-20231107090505665.png)
 
 - **Authentication and Authorization Plan**
-   
+  
    Here you will describe the technical approach your application will use to determine whether someone is a User or an Administrator. Remember - an Administrator is simply a User with additional administrative rights. Therefore, your implementation will not have two login screens. Carefully think about how to design this mechanism. When writing this plan, use technical language. If you plan to implement this via polymorphism, show the class diagram. You might include a code fragment demonstrating how to determine if a user has administrative rights. The point of this section is to ensure your developers know exactly how to present the actions each logged-in user is authorized to perform.
    
    - Note: This is not a security class, but it will help if you understand the difference between *authentication* and *authorization*. Authentication identifies *who* is logging in. Authorization determines the action an authenticated entity can perform. Separate these responsibilities in your design (and your code). 
@@ -1010,26 +1010,47 @@ Here is a screenshot from a prior semester (this does not exactly your project):
 
 Finally, you are ready to produce your application! You have planned most of the semester and you know exactly what to make.
 
-Now you will execute the requirements by implementing your User Interface Design and Technical Design. Your goal is to make your implementation look as close to the User Interface Design as possible.
+Now you will execute the requirements by **implementing your User Interface Design and Technical Design**. Your goal is to make your implementation look as close to the User Interface Design as possible.
 
 You will submit your implementation to your client (me) via Github. It will include:
 
-- well-written code that follows your language's style guide. Do not use Java conventions in a Python app.
-- a README.md in the source that includes:
-   - a brief description of your application (from an end-user point of view),
-   - environment requirements, such as "MacOS or Linux or Windows" (be very specific the systems and operating systems where you application can run),
-   - steps to clone and build the application on a fresh machine. Be very specific - I will be attempting to follow these steps on my machin. You must describe all of the steps, dependencies, gotchas, database schema scripts, warnings, etc. I need to get your application working without a lot of fuss. If I cannot make your application work, your grade will suffer. Be very thorough on this part and have every person on your team test the steps to ensure everyone agrees it is complete.
-   - any other important information you need to pass along to someone trying to setup and run your application.
+- well-written code organized in and under a `~/source` folder that follows your language's style guide. Do not use Java conventions in a Python app.
+- an `~/implementation/README.md` file explaining how to setup, build, and run your application.
 
-There are many good articles on writing an excellent read.me. [I recommend reviewing a few so you do a great job producing this very important document.](https://bulldogjob.com/readme/how-to-write-a-good-readme-for-your-github-project)
+### Finished Application Components
 
-I cannot stress how important is that your code compiles and runs. The whole point of software is to solve a problem. Code that does not compile cannot begin to solve a problem. Make sure your system runs, even if it does not meet every requirement or the UI looks awful. All of the work you have done till now was the *necessary journey* to refine your thoughts to the point you could produce a great application, but NONE OF IT MATTERS if the application does not run. Ultimately our work is about working software that solves a problem... your end user almost certainly does not care how fantastic your requirements and planning and designs were if the solution does not work.
+At a minimum, your finished application must include:
 
-Pro Tip: I recommend that every team member review your implementation's readme.md file and try to configure your implementation in a fresh directory. This will help you see steps you have overlooked. I think great work makes it easy on the end-user to get started quickly without having endlessly Google and troubleshoot to try out your work.
+- Login, including a link to self-register
+  - The Login screen is for both users and administrators - do not create two login screens. 
+- Self-Registration (creating your Customer account)
+- Inventory List including Search and links to add to shopping cart
+  - When the inventory is shown, show all *available* inventory
+  - When a search is active, limit the list to *available* inventory matching some/all of the search term.
+- Shopping Cart including Remove Item(s)
+  - Available inventory can be added to a shopping cart. Multiple inventory items can be in the shopping cart.
+  - Inventory in the shopping cart can be removed. Once removed, it is visibile in the list again.
+- Checkout
+  - Users can checkout *if* there are one or more items in the shopping cart.
+  - Include a payment acceptance screen followed by an on-screen receipt (which simulates emailing the receipt).
+  - NOTE: Purchased inventory *must* disappear from the available inventory, even after restarting the application. Storing your inventory status in memory is not acceptable. I will look at your storage system after purchases to verify the written transactions are present *and* I will restart the application to verify purchases remain purchased.
 
-### Optional Setup Presentation
+- If the user is an Administrator, include a link to the Sales Report. Do not show Administrator features to non-Administrators.
+- The Sales Report will list all of the sold inventory items, the date sold, and the user that bought the items.
 
-If you are concerned I will have trouble running your application on my machine, create a 3-5 minute presentation showing exactly how to set it up and run it. If you are confident I am going to have no problem following your directions, you do not need to produce this video. If you produce this video, it does *not* replace your final presentation video and it does not confer any extra credit. It is simply to ensure I can get your application operational.
+### Your Project Should Look Like Your UI Design
+
+Your project *should* look like your UI design (or better, but at a minimum it should meet the expectation set by your UI design). In your Final Presentation, you will perform a live comparison of your UI Design with your finished application. 
+
+If your project does *not* look like your UI design, explain why, in detail. Do not just say "it was too hard". Act like you are talking to a disappointed customer who has paid you to deliver what you promised. Be specific - "we found this was much harder than we expected", "we did not budget our time well", "we used AI and it ignored our design" (this is very bad, so hopefully I will not hear it).
+
+Your UI design set an expectation. Now you must deliver it. If you extended the project by adding fancy enhancements in your UI Design, you have to account for them now.
+
+### Working Code - Not Just Code
+
+I cannot stress how important is that your code compiles and runs. The whole point of software is to solve a problem. Code that does not compile cannot begin to solve a problem. Make sure your system runs, even if it does not meet every requirement or the UI looks awful. All of the work you have done till now was the *necessary journey* to refine your thoughts to the point you could produce a great application, but NONE OF IT MATTERS if the application does not run. 
+
+Every team member should review your implementation and documentation. Everyone should try to configure your implementation in a fresh directory. This will help you see steps you have overlooked. Great work makes it easy for end-users to get started quickly without having endlessly Google and troubleshoot your project.
 
 ### JetBrains Professional IDEs
 
@@ -1044,6 +1065,55 @@ PRO TIP: I routinely ask people I am considering hiring "what tools do you like 
 PRO TIP 2: I will not hire an experienced engineer who says they do not care what tools they use. To me, that shows a lack of craftsmanship and passion for your art. Further, I will escort you out of the building and push you into the street if you say you use Windows Notepad to write your code. Windows Notepad sucks.
 
 PRO TIP 3: You would not hire a carpenter who has no tools. Sometimes, you have to pay for good tools. For whatever reason, some software engineers will not usething that is not free. That's workable but not always pragmatic. Licensed software, particularly when reasonably priced, is an outstanding investment. Note that Visual Studio is not reasonably priced IMO, which is why I recommend trying JetBrains Rider if you are doing C# development.
+
+### Markdown and Source Code
+
+1. Create a directory off the root of your team repo named `~\source`. *All* of your source files go under this directory.
+
+   - Your grade will be a 25 or less if your source does not compile. Your job as a software engineer is to produce and deliver code that compiles *and* solves an important problem. Delivering code that does not compile is unacceptable.
+
+2. In your source directory, add a `~\source\.gitignore` file configured for your environment. This will help ensure you do not check in compilation artifacts (which should almost never be checked in). There are `.gitignore` templates here (find the one most suitable to your language and frameworks). https://github.com/github/gitignore. Read here for more information on this concept. https://www.w3schools.com/git/git_ignore.asp
+
+   - You are not using `.gitignore` correctly if the following are checked into your repository (these are the most common problems - not the only problems).
+     - Java: `target`, `bin`, or `out` directories are checked in. `.war`, `.jar` and `.zip` are also indicators of a problem.
+     - Java: `bin`, `obj`, or `packages` directories are checked in. `.dll`, `.jar` and `.zip` are also indicators of a problem.
+     - Python: `_pycache_`, `build`, `dist`, and `env` are indicators of a problem.
+   - Do not add your `.gitignore` file last. *Add it first.* Otherwise, you have to manually go back and remove the things `.gitignore` tells the source control system to overlook.
+
+3. Create a directory named `~\implementation` and place a `README.md` file in it. You will put your detailed configuration instructions here. 
+
+   - Make *certain* your instructions are detailed and will help me get your source code running on my machine. Have every member of your team perform the instructions. If I cannot make your project work, you will be disappointed with your grade. Every framework in this cource is cross-platform, so there should be zero reasons why your project cannot easily be made to operate on my machine (which is a Mac M4).
+
+   - Set the title to `Implementation`.
+
+   - Add sections for `Environment Setup`, `Data Storage Setup`, and `How to Start`.
+
+     - **Environment Setup**
+       Explain what is needed to prepare the machine. What version of Java or C# or Python, where do I get what is needed (links - do not make me Google it!), steps to configure the environment, setting environment variables, etc. 
+       NOTE: Sometimes teams will give me 500 steps here. None of these projects should take more than a few steps to configure the environment. 
+
+     - **Database Setup**
+       Explain how to configure the data storage for your application. This will load your seed data, example users (minimum of 1 user and 1 administrator), inventory, etc. You do not need sample sales orders.
+
+     - **How to Start and Login**
+       Explain how to compile and launch your application *from a terminal* and open it in a browser. Here you will include a table containing the username, password, and role of each sample user (so I do not have to dig through your data storage to figure it out), and the path to your web application and its port (typically something like https://localhost:8080). Your instructions must be *very* precise. I should not have to look up anything to start your application.
+
+       NOTE: I should not have to use Intellij, Rider, or PyCharm to run your application. Will your customers have to start their applications from an IDE? **No, and nor should I. Learn how to start your application from a terminal window.** Stop relying on IDEs to run completed applications. IDEs are for building and troubleshooting your app - not running it.
+
+     - **Troubleshooting**
+       If you and your team have found any problems I am likely to encounter, you should either fix the problem (recommended) or list it here along with steps to bypass/correct the problem. Common issues I see that you should either try to avoid or describe how to fix are:
+
+       - Java: Performing a clean build with Maven, starting a project from the command line using the `mvn` command, and how to force Maven to install dependencies.
+       - Python: How to load dependencies via a `requirements.txt` file. This is how you will load Flask. I will not have Flask or SqlLite, etc. installed. Your application must do it.
+       - C#: I rarely see problems with C#. It's a very forgiving build and dependency environment if you are using .NET Core. The prior .NET Framework (ending in v4.8) was not nearly as friendly (but you are *not* allowed to use that either).
+
+4. In your main `~/README.md`, create a section at the end called `Implementation`. Add a link to the `~\implementation\README.md` file here.
+
+### Make Me Happy
+
+I love it when projects just start and work. Strive to make your project easy to configure and launch and login.
+
+PRO TIP: If you have a member of your team using a Mac M series, have them test your `~\implementation\README.md` steps. I use an Mac M4... If all of you use Windows, that is fine, but do not give me any Windows-specific instructions (such as "Open Control Panel" or "Click the Start menu"). Keep your instructions either OS-agnostic or list instructions for different environments.
 
 ### Instructions and Grading Rubric
 
