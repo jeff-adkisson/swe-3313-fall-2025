@@ -1076,9 +1076,9 @@ PRO TIP 3: You would not hire a carpenter who has no tools. Sometimes, you have 
 
    - You are not using `.gitignore` correctly if the following are checked into your repository (these are the most common problems - not the only problems).
      - Java: `target`, `bin`, or `out` directories are checked in. `.war`, `.jar` and `.zip` are also indicators of a problem.
-     - Java: `bin`, `obj`, or `packages` directories are checked in. `.dll`, `.jar` and `.zip` are also indicators of a problem.
+     - C#: `bin`, `obj`, or `packages` directories are checked in. `.dll` files are also indicators of a problem.
      - Python: `_pycache_`, `build`, `dist`, and `env` are indicators of a problem.
-   - Do not add your `.gitignore` file last. *Add it first.* Otherwise, you have to manually go back and remove the things `.gitignore` tells the source control system to overlook.
+   - Do not add your `.gitignore` file to your `\source` directory last. *Add it first*, then add your code. Otherwise, you have to manually go back and remove the things `.gitignore` tells the source control system to overlook.
 
 3. Create a directory named `~\implementation` and place a `README.md` file in it. You will put your detailed configuration instructions here. 
 
@@ -1086,7 +1086,7 @@ PRO TIP 3: You would not hire a carpenter who has no tools. Sometimes, you have 
 
    - Set the title to `Implementation`.
 
-   - Add sections for `Environment Setup`, `Data Storage Setup`, and `How to Start`.
+   - Add sections for `Environment Setup`, `Data Storage Setup`, `How to Start`, and `Troubleshooting`.
 
      - **Environment Setup**
        Explain what is needed to prepare the machine. What version of Java or C# or Python, where do I get what is needed (links - do not make me Google it!), steps to configure the environment, setting environment variables, etc. 
@@ -1138,9 +1138,12 @@ Your 5 minute final presentation (using Loom) must include:
 3) A live comparison of your final application's user interface and your Marvel UI design (switch between Marvel and your running application). Explain why or why not your implementation met your design and what you learned from that. In real life, when your mockup does not match your final implementation, your client may be upset... it's like an architect designing a soaring skyscraper and the builder delivers a large tent. If your final work does not match your design, own it and learn from it. 
 4) Anything awesome you want to show off.
 
-### Additional Information
+### Two Loom Videos are Permitted
 
 - If necessary, you can submit two Loom videos - one for the compiling/launching/run through of the application and a second one doing the comparison of your application to Marvel. Label everything clearly so it is easy for me to find and review your submission. You cannot submit more than two Loom videos.
+
+### Penalties
+
 - If your team cannot start your application from a terminal window, you can run it from an IDE, but this will result in a 5% penalty. Learn how to run your application without an IDE.
 
 ### Markdown

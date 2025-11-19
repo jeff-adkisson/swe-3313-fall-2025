@@ -6,27 +6,15 @@ Finally, you are ready to produce your application! You have planned most of the
 
 Now you will execute the requirements by implementing your User Interface Design and Technical Design. Your goal is to make your implementation look as close to the User Interface Design as possible.
 
-## Requirements
+#### Code That Does Not Compile Receives a 25% Grade or Lower, automatically
 
-For the Implementation phase, you will produce and submit via GitHub:
-
-- Operational, well-written code that follows your language's style guide. For example, do not use Java conventions in a Python app. Your implementation must perform all of the Must Have requirements including data storage to CSV, JSON, or SQL. You must be able to start and restart the application and all data that was created/entered remains available on restart.
-- A well-written, well-organized  **README.md** *in the root of your source coode* linked from your main GitHub repo's project documentation that includes:
-   - a brief description of your application (from an end-user point of view),
-   - environment requirements, such as "MacOS or Linux or Windows" (be very specific the systems and operating systems where you application can run),
-   - steps to clone and build the application on a fresh machine. Be very specific - I will be attempting to follow these steps on my machine and they better have all of the steps, dependencies, gotchas, database schema scripts, warnings, etc. I need to get your application working without a lot of fuss.
-   - any other important information you need to pass along to someone trying to setup and run your application.
-- Optionally, you can provide a video presentation showing the working application and any important notes how to setup and execute the application. If you are confident I can get your application working, you do not need to produce this.
-
-#### Code That Does Not Compile Gets a 25% Grade or Lower, automatically
-
-**It is essential that your code compiles**, even if it does not achieve every requirement. Do not submit code that will not compile. Fix it before submitting. If I cannot compile it, I cannot grade it. Have everyone on the team verify it compiles and check the README.md in the root of the source code to verify it explains how to get a successful compilation.
+**It is essential that your code compiles**, even if it does not achieve every requirement. Do not submit code that will not compile. Fix it before submitting. If I cannot compile it, I cannot grade it. Have everyone on the team verify that it compiles in a clean environment.
 
 ***Producing working code is our primary goal. Everything else we do in this field supports that goal.***
 
 ### Submission Steps
 
-The entire team will work execute the implementation EFFORT. *All of you need* to review the completed work. This is a team effort and the team will succeed or fail as a group.
+The entire team will work execute the implementation EFFORT. *All of you need* to review the completed work. This is a team effort, and the team will succeed or fail as a group.
 
 Our number one goal as Software Engineers is to deliver working software. All of the documentation, planning, and design were steps to reach a working implementation. This is the part that matters most. It also has the biggest contribution to your grade.
 
@@ -49,11 +37,11 @@ Your submission must include:
 1.  Login as User and Administrator: 10%
 2.  Self-registration (User only): 10%
 3.  Navigating, displaying, and searching available inventory: 20%
-4.  Adding and removing available inventory from shopping cart: 10%
-5.  Checkout process including payment acceptance and on-screen receipt: 20%
-    - Purchased inventory *must* disappear from the available inventory, even after restarting the application. Storing your inventory status in memory is not acceptable.
+4.  Adding and removing available inventory from the shopping cart: 10%
+5.  Checkout process, including payment acceptance and on-screen receipt: 20%
+    - Purchased inventory *must* be removed from available inventory, even after restarting the application. Storing your inventory status in memory is not acceptable.
 6.  Sales report (administrator only): 10%
-7.  README.md in the root of your source code - 20%
+7.  `~\implementation\README.md` - 20%
 
 ### UI Design Compliance (20% penalty)
 
